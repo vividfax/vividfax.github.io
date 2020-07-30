@@ -1,0 +1,15 @@
+body { background-color: #FFF8F8; color: #835E89; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 12px; line-height: 18px; }
+
+img { width: 100%; }
+
+a { color: #CE90C1; }
+
+strong { color: #36003F; font-weight: normal; }
+
+#container { width: 70%; margin: auto; }
+
+.textContainer { width: 50%; margin: auto; }
+
+.indent { padding-left: 29px; }
+
+/*# sourceMappingURL=styles.css.map */

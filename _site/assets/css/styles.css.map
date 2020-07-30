@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"$white: #FFF8F8;\n$light: #FF9595;\n$mid: #CE90C1;\n$dark: #835E89;\n$black:#36003F;\n$contrast: #C0DFD9;\n\n\nbody {\n    background-color: $white;\n    color: $dark;\n    font-family: Menlo, Monaco, 'Courier New', monospace;\n    font-size: 12px;\n    line-height: 18px;\n}\n\nimg {\n    width: 100%;\n}\n\na {\n    color: $mid;\n}\n\nstrong {\n    color: $black;\n    font-weight: normal;\n}\n\n#container {\n    width: 70%;\n    margin: auto;\n}\n\n.textContainer {\n    width: 50%;\n    margin: auto;\n}\n\n.indent {\n    padding-left: 29px;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACQA,AAAA,IAAI,CAAC,EACD,gBAAgB,EATZ,OAAO,EAUX,KAAK,EAPF,OAAO,EAQV,WAAW,EAAE,uCAAuC,EACpD,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,IAAI,GACpB;;AAED,AAAA,GAAG,CAAC,EACA,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,CAAC,CAAC,EACE,KAAK,EAnBH,OAAO,GAoBZ;;AAED,AAAA,MAAM,CAAC,EACH,KAAK,EArBF,OAAO,EAsBV,WAAW,EAAE,MAAM,GACtB;;AAED,AAAA,UAAU,CAAC,EACP,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,cAAc,CAAC,EACX,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,OAAO,CAAC,EACJ,YAAY,EAAE,IAAI,GACrB"
+}

@@ -1,0 +1,42 @@
+$white: #FFF8F8;
+$light: #FF9595;
+$mid: #CE90C1;
+$dark: #835E89;
+$black:#36003F;
+$contrast: #C0DFD9;
+
+
+body {
+    background-color: $white;
+    color: $dark;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: $mid;
+}
+
+strong {
+    color: $black;
+    font-weight: normal;
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+.textContainer {
+    width: 50%;
+    margin: auto;
+}
+
+.indent {
+    padding-left: 29px;
+}
