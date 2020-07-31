@@ -6,7 +6,7 @@ permalink: /blackletterwalk/
 ---
 {::options parse_block_html="true" /}
 
-![A single frame from a Blackletter Walk gif](../assets/images/blackletterwalk1.png)
+![A single frame from a Blackletter Walk gif](../assets/images/blackletterwalk0.png)
 
 <br>
 
