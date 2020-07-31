@@ -88,7 +88,7 @@ UI design, Vector art, 3D modelling
 3D modelling
 
 </div>
-<div class="col-12 col-md-6 col-lg-4">
+<div class="col-12 col-md-6 col-lg-4 mb-5">
 
 [![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
 
@@ -97,7 +97,7 @@ Flag Gen
 Graphic design, Generative art, Web development
 
 </div>
-<div class="col-12 col-md-6 col-lg-4">
+<div class="col-12 col-md-6 col-lg-4 mb-5">
 
 [![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
 
