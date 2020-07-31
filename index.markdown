@@ -9,10 +9,103 @@ title: home
 
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
+<div class="my-5 py-5">
+
 ### Hi there, I'm Rianna
 
 Front-end developer, Generative artist, Knitter
 
-[blackletterwalk](blackletterwalk)
+</div>
+<div class="my-5 py-5">
 
+I design and build things using these tools:
+
+![Figma, JavaScript, Node.js, Git, React, Heroku](../assets/images/badges.png)
+
+
+</div>
+<div id="projects" class="my-5 pt-5">
+
+Some things I've made:
+
+</div>
+
+</div>
+<div class="col-12">
+<div class="row">
+
+<div class="col-4 mb-5">
+
+![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.png)
+
+Planthood
+
+Interaction design, UI design, Front-end iOS development
+
+</div>
+<div class="col-4 mb-5">
+
+![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)
+
+Terrain Hat
+
+Knitwear design, Generative design, UI design, Web development
+
+</div>
+<div class="col-4 mb-5">
+
+[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.png)](blackletterwalk)
+
+Blackletter Walk
+
+Typography, Generative design, Web development
+
+</div>
+<div class="col-4 mb-5">
+
+![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.png)
+
+Generative sketches
+
+Generative art, Installation art
+
+</div>
+<div class="col-4 mb-5">
+
+![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)
+
+GOGOGOGOGO
+
+UI design, Vector art, 3D modelling
+
+</div>
+<div class="col-4 mb-5">
+
+![3D sketches thumbnail](../assets/images/3dsketchesthumbnail.png)
+
+3D sketches
+
+3D modelling
+
+</div>
+<div class="col-4">
+
+![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)
+
+Flag Gen
+
+Graphic design, Generative art, Web development
+
+</div>
+<div class="col-4">
+
+![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)
+
+Fingerprint Hat
+
+Knitwear design, Generative design
+
+</div>
+
+</div>
 </div>
