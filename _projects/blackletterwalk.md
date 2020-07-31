@@ -2,7 +2,7 @@
 layout: project
 title: Blackletter Walk
 description: Typography, Generative art, Web Development
-permalink: /blackletterwalk/
+permalink: /blackletter-walk/
 ---
 {::options parse_block_html="true" /}
 
