@@ -5,21 +5,29 @@ $dark: #835E89;
 $black:#36003F;
 $contrast: #C0DFD9;
 
-
 body {
     background-color: $white;
     color: $dark;
     font-family: Menlo, Monaco, 'Courier New', monospace;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-bottom: 6rem;
 }
 
 img {
     width: 100%;
 }
 
+.icon {
+    width: auto;
+}
+
 a {
     color: $mid;
+}
+
+a:hover {
+    color: $dark;
 }
 
 strong {
@@ -27,16 +35,23 @@ strong {
     font-weight: normal;
 }
 
-#container {
-    width: 70%;
-    margin: auto;
-}
-
-.textContainer {
-    width: 50%;
-    margin: auto;
-}
-
 .indent {
-    padding-left: 29px;
+    // padding-left: 29px;
+    padding-left: 1.9rem;
+}
+
+.btn {
+    background-color: $mid;
+    color: $white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    border: 0px;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    background-color: $dark;
+}
+
+h3 {
+    color: $mid;
 }

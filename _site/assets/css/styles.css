@@ -1,15 +1,21 @@
-body { background-color: #FFF8F8; color: #835E89; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 12px; line-height: 18px; }
+body { background-color: #FFF8F8; color: #835E89; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 0.8rem; line-height: 1.2rem; margin-bottom: 6rem; }
 
 img { width: 100%; }
 
+.icon { width: auto; }
+
 a { color: #CE90C1; }
+
+a:hover { color: #835E89; }
 
 strong { color: #36003F; font-weight: normal; }
 
-#container { width: 70%; margin: auto; }
+.indent { padding-left: 1.9rem; }
 
-.textContainer { width: 50%; margin: auto; }
+.btn { background-color: #CE90C1; color: #FFF8F8; font-size: 0.8rem; line-height: 2rem; border: 0px; }
 
-.indent { padding-left: 29px; }
+.btn:hover, .btn:active, .btn:focus { background-color: #835E89; }
+
+h3 { color: #CE90C1; }
 
 /*# sourceMappingURL=styles.css.map */

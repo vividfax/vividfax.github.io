@@ -6,11 +6,11 @@ permalink: /blackletterwalk/
 ---
 {::options parse_block_html="true" /}
 
+<div class="col-12 mb-5">
 ![A single frame from a Blackletter Walk gif](../assets/images/blackletterwalk0.png)
+</div>
 
-<br>
-
-<div class="textContainer">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
 **Blackletter Walk**
 
