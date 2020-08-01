@@ -72,15 +72,6 @@ Generative art, Installation art
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
-
-GOGOGOGOGO
-
-UI design, Vector art, 3D modelling
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
 [![3D sketches thumbnail](../assets/images/3dsketchesthumbnail.png)](3d-sketches)
 
 3D sketches
@@ -90,20 +81,29 @@ UI design, Vector art, 3D modelling
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
-
-Flag Gen
-
-Graphic design, Generative art, Web development
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
 [![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
 
 Fingerprint Hat
 
 Knitwear design, Generative design
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
+[![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
+
+GOGOGOGOGO
+
+UI design, Vector art, 3D modelling
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
+[![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
+
+Flag Gen
+
+Graphic design, Generative art, Web development
 
 </div>
 

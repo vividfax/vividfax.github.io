@@ -18,7 +18,7 @@ permalink: /flag-gen/
 
 is a Twitter **bot** that generates random flag designs and mottos based on the design principles of vexillography and heraldry.
 
-[twitter.com/blackletterwalk](https://twitter.com/blackletterwalk)
+[twitter.com/vexillographing](https://twitter.com/vexillographing)
 
 </div><br>
 
