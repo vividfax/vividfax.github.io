@@ -2,7 +2,7 @@
 layout: project
 title: Terrain Hat
 description: Knitwear design, Generative design, UI design, Web development
-permalink: /terrain-hat/
+permalink: /about-terrain-hat/
 ---
 {::options parse_block_html="true" /}
 

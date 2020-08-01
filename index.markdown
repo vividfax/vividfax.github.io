@@ -45,7 +45,7 @@ Interaction design, UI design, Front-end iOS development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](terrain-hat)
+[![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
 
 Terrain Hat
 
