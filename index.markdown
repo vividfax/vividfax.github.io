@@ -36,7 +36,7 @@ Some things I've made:
 
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Planthood thumbnail](../assets/images/blackletterwalkthumbnail.png)](planthood)
+[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
 
 Planthood
 
@@ -54,7 +54,7 @@ Knitwear design, Generative design, UI design, Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.png)](blackletter-walk)
+[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
 
 Blackletter Walk
 
@@ -63,7 +63,7 @@ Typography, Generative design, Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.png)](generative-sketches)
+[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
 
 Generative sketches
 
