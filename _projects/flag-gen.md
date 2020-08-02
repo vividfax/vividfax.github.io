@@ -16,9 +16,11 @@ permalink: /flag-gen/
 
 <div class="indent">
 
-is a Twitter **bot** that generates random flag designs and mottos based on the design principles of vexillography and heraldry.
+is a twitter **bot** that generates random flag designs and mottos based on the design principles of vexillography and heraldry.
 
 [twitter.com/vexillographing](https://twitter.com/vexillographing)
+
+After listening to [99% Invisible's episode on vexillology](https://99percentinvisible.org/episode/vexillonaire/) I became interested in the way flags are constructed from layers consisting of the subdivision, the ordinary and the charge. These three components can be combined in near endless configurations to create recognisable flags that are used today. I decided to exhaust these combinations by building a bot. The most interesting part of this project for me is the meaning derived from the mottos that accompany the flags. I compiled a set of words associated with specific colours, and for each colour that appears on the flag, a word is added to the motto.
 
 </div><br>
 

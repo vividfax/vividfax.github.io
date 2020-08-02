@@ -9,21 +9,108 @@ title: home
 
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
-<div id="about" class="my-5 py-5">
+<div id="about" class="mb-5">
 
 ### Hi there, I'm&nbsp;Rianna
 
 Front-end&nbsp;developer, Generative&nbsp;artist, Knitwear&nbsp;designer
 
 </div>
-<div class="my-5 py-5">
+<div class="pt-3 mb-5">
 
 I design and build things using these tools:
 
-![Figma, JavaScript, Node.js, Git, React, Heroku](../assets/images/badges.png)
+<div id="badges" class="row mt-5">
+
+<div class="col-3 col-sm-2 text-center">
+
+![Figma logo](../assets/images/badges/figmalogo.png)
+
+Figma
 
 </div>
-<div id="projects" class="my-5 pt-5">
+<div class="col-3 col-sm-2 text-center">
+
+![Notion logo](../assets/images/badges/notionlogo.png)
+
+Notion
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![VSCode logo](../assets/images/badges/vscodelogo.png)
+
+VSCode
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![Git logo](../assets/images/badges/gitlogo.png)
+
+Git
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![Python logo](../assets/images/badges/pythonlogo.png)
+
+Python
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![JavaScript logo](../assets/images/badges/javascriptlogo.png)
+
+JavaScript
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![Node.js logo](../assets/images/badges/nodejslogo.png)
+
+Node.js
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![React Native logo](../assets/images/badges/reactlogo.png)
+
+React Native
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![Heroku logo](../assets/images/badges/herokulogo.png)
+
+Heroku
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![Blender logo](../assets/images/badges/blenderlogo.png)
+
+Blender
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![p5.js logo](../assets/images/badges/p5jslogo.png)
+
+p5.js
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
+![Knitting needles icon](../assets/images/badges/knittinglogo.png)
+
+knitting needles
+
+</div>
+
+</div>
+
+</div>
+<div id="projects" class="mb-5">
 
 Some things I've made:
 
@@ -71,9 +158,9 @@ Generative art, Installation art
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![3D sketches thumbnail](../assets/images/3dsketchesthumbnail.png)](3d-sketches)
+[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
-3D sketches
+3D illustrations
 
 3D modelling
 

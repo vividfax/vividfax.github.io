@@ -18,6 +18,8 @@ permalink: /planthood/
 
 is a plant care **app** for casual indoor gardeners who haven’t yet learned how to read their plants needs instinctually, or people who just have a lot of house plants.
 
+The project came about when a friend came to me wanting an app to help her look after her 21 plant children. We were specifically interested in creating an app that wouldn't guilt the user into keeping up a daily streak. There was also another aspect we wanted to address: plant death. Plant death is a natural thing that just happens. We focused on creating space in our app for users to keep track of both past and present plants, and the transition inbetween.
+
 </div><br>
 
 **Ideation**<br>
@@ -76,4 +78,12 @@ I built the app with **React Native**, using **Expo** to preview the build on my
 
 </div>
 
+</div>
+
+<div class="col-12 mt-5">
+![Prototype](../assets/images/planthood3.png)
+</div>
+
+<div class="col-12 mt-3">
+![Prototype](../assets/images/planthood4.png)
 </div>

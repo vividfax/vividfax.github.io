@@ -18,6 +18,8 @@ permalink: /gogogogogo/
 
 is a co-op first-person driving **game** set in a retrofuturistic version of Busan.
 
+I'm big into indie games and when a friend invited me onto a project I enthusiastically volunteered myself for anything that I could help out with.
+
 </div><br>
 
 **UI design**<br>

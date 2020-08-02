@@ -21,6 +21,8 @@ permalink: /fingerprint-hat/
 
 is a knitted hat that uses a **reaction diffusion** algorithmn as a stitch pattern.
 
+Brioche knitting is a method of knitting that makes a really squishy fabric with defined ridges. When I learned this technique I was reminded of [Nervous System's Coral Cup](https://n-e-r-v-o-u-s.com/projects/albums/coralcup/) and I had to attempt to create the same structure through knitting. By placing random increases and decreases throughout the hat, this branching stucture is achieved.
+
 </div>
 
 </div>

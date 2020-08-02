@@ -23,6 +23,8 @@ is a knitted hat that uses **simplex noise** as a stitch pattern.
 
 [vividfax.github.io/terrain-hat/](https://vividfax.github.io/terrain-hat/)
 
+I learn something new with every knitting pattern that I knit from, and when I first learned about knitting from charts I immediately saw it as a space for generative pixel-based art. In knitting there are two sides to a stitch; a knit side on the front and a purl side that's usually on the back. This binary system can be configured in so many different ways. Many basic stitch patterns are just a combination of knits and purls, repeated in a uniform manner. I threw a bit of randomness into the mix and this is the result.
+
 </div><br>
 
 **Generative design**<br>
@@ -45,7 +47,7 @@ I built an **interactive** knitting chart **generator** for the hat, using **p5.
 
 <div class="indent">
 
-The bot lives on **Heroku**, tweeting automatically through the **Twitter API** via Twit.
+Website built with **Bootstrap** and hosted on **GitHub** pages.
 
 </div>
 

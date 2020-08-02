@@ -14,12 +14,8 @@ body {
     margin-bottom: 6rem;
 }
 
-img {
-    width: 100%;
-}
-
-.icon {
-    width: auto;
+h3 {
+    color: $mid;
 }
 
 i {
@@ -39,11 +35,6 @@ strong {
     font-weight: normal;
 }
 
-.indent {
-    // padding-left: 29px;
-    padding-left: 1.9rem;
-}
-
 .btn {
     background-color: $mid;
     color: $white;
@@ -56,6 +47,20 @@ strong {
     background-color: $dark;
 }
 
-h3 {
+img {
+    width: 100%;
+}
+
+.icon {
+    width: auto;
+}
+
+.indent {
+    padding-left: 1.9rem;
+}
+
+#badges {
     color: $mid;
+    font-size: 0.6rem;
+    line-height: 1rem;
 }
