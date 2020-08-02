@@ -11,9 +11,9 @@ title: home
 
 <div id="about" class="my-5 py-5">
 
-### Hi there, I'm Rianna
+### Hi there, I'm&nbsp;Rianna
 
-Front-end developer, Generative artist, Knitter
+Front-end&nbsp;developer, Generative&nbsp;artist, Knitwear&nbsp;designer
 
 </div>
 <div class="my-5 py-5">
@@ -21,7 +21,6 @@ Front-end developer, Generative artist, Knitter
 I design and build things using these tools:
 
 ![Figma, JavaScript, Node.js, Git, React, Heroku](../assets/images/badges.png)
-
 
 </div>
 <div id="projects" class="my-5 pt-5">
