@@ -53,7 +53,6 @@ Website built with **Bootstrap** and hosted on **GitHub** pages.
 
 </div>
 
-
 <div class="col-12 mt-5">
 ![A knitting chart](../assets/images/terrainhat2.png)
 </div>
