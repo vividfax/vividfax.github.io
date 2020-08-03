@@ -6,7 +6,7 @@ permalink: /generative-sketches/
 ---
 {::options parse_block_html="true" /}
 
-<div class="col-12 col-md-6 mb-5">
+<div class="col-12 col-md-6 mb-3">
 ![Generative artwork](../assets/images/generativesketches0.png)
 </div>
 <div class="col-12 col-md-6 mb-5">

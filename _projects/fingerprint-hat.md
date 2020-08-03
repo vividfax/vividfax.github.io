@@ -6,7 +6,7 @@ permalink: /fingerprint-hat/
 ---
 {::options parse_block_html="true" /}
 
-<div class="col-12 col-md-6 mb-5">
+<div class="col-12 col-md-6 mb-3">
 ![A close up photo of a knitted swatch](../assets/images/fingerprinthat0.png)
 </div>
 <div class="col-12 col-md-6 mb-5">

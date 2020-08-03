@@ -42,7 +42,7 @@ I designed a **moodboard**, defining the features, target user, and the look and
 
 <div class="indent">
 
-Drew a **content map** that laid out the features of the app. Then put together an **interaction map** detailing every choice and interaction the user could make.
+Drew a **content map** that laid out the features of the app. Then put together **interaction maps** detailing every choice and interaction the user could make.
 
 </div><br>
 
