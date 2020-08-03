@@ -10,7 +10,7 @@ permalink: /generative-sketches/
 ![Generative artwork](../assets/images/generativesketches0.png)
 </div>
 <div class="col-12 col-md-6 mb-5">
-![Generative artwork](../assets/images/generativesketches1.png)
+![Generative artwork](../assets/images/generativesketches1.gif)
 </div>
 
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
@@ -19,9 +19,11 @@ permalink: /generative-sketches/
 
 <div class="indent">
 
-drawn in **p5.js**, that use randomness.
+drawn in **p5.js**.
 
 [instagram.com/vividfax/](https://www.instagram.com/vividfax/)
+
+I like drawing with code. There's a delightful element of surprise when you hand over some of the design decisions to a random number generator.
 
 </div><br>
 
@@ -35,6 +37,13 @@ I coded a 3D version of John Conway’s **Game of Life** for the Granary Square 
 
 </div>
 
-<div class="col-12 mt-5">
+<div class="col-12 mt-5 mb-3">
 ![A photo of a fountain with lights](../assets/images/generativesketches2.png)
+</div>
+
+<div class="col-12 col-md-6 mb-3">
+![Generative artwork](../assets/images/generativesketches3.png)
+</div>
+<div class="col-12 col-md-6">
+![Generative artwork](../assets/images/generativesketches4.png)
 </div>
