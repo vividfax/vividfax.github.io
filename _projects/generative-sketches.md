@@ -42,7 +42,7 @@ I coded a 3D version of John Conway’s **Game of Life** for the Granary Square 
 </div>
 
 <div class="col-12 col-md-6 mb-3">
-![Generative artwork](../assets/images/generativesketches3a.png)
+![Generative artwork](../assets/images/generativesketches3.png)
 </div>
 <div class="col-12 col-md-6">
 ![Generative artwork](../assets/images/generativesketches4.png)
