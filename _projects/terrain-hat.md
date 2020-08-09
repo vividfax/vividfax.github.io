@@ -33,7 +33,15 @@ I learn something new with every knitting pattern that I knit from, and when I f
 
 I built an **interactive** knitting chart **generator** for the hat, using **p5.js**, allowing each knitter to customise a hat that’s unique to them.
 
-</div><br>
+</div>
+
+</div>
+
+<div class="col-12 my-5">
+![A knitting chart](../assets/images/terrainhat2.png)
+</div>
+
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
 **UI design**
 
@@ -49,10 +57,21 @@ I built an **interactive** knitting chart **generator** for the hat, using **p5.
 
 Website built with **Bootstrap** and hosted on **GitHub** pages.
 
-</div>
+</div><br>
+
+**User testing**<br>
+
+<div class="indent">
+
+I ran a **test knit** of the pattern to assess the usability of the website and the readability of the pattern instructions; organising and communicating with seven participants via **Slack**.
 
 </div>
 
-<div class="col-12 mt-5">
-![A knitting chart](../assets/images/terrainhat2.png)
+</div>
+
+<div class="col-12 col-md-6 mt-5 mb-3">
+![Screenshot of Slack](../assets/images/terrainhat3.png)
+</div>
+<div class="col-12 col-md-6 mt-md-5">
+![Screenshot of a Google Form](../assets/images/terrainhat4.png)
 </div>
