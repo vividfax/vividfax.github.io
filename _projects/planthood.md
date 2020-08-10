@@ -57,7 +57,7 @@ Created a **wireframe** in **Figma** and linked up the pages to create a **click
 </div>
 
 <div class="col-12 col-md-6 mt-5 mb-3">
-![Wireframe](../assets/images/planthood2.png)
+![Screenshot of a wireframe](../assets/images/planthood2.png)
 </div>
 <div class="col-12 col-md-6 mt-md-5 mb-5">
 ![User testing in Lookback](../assets/images/planthood3.png)
@@ -84,9 +84,13 @@ I built the app with **React Native**, using **Expo** to preview the build on my
 </div>
 
 <div class="col-12 mt-5">
-![Prototype](../assets/images/planthood4.png)
+![Screenshot of prototype](../assets/images/planthood4.png)
 </div>
 
 <div class="col-12 mt-3">
-![Prototype](../assets/images/planthood5.png)
+![Screenshot of VSCode](../assets/images/planthood5.png)
+</div>
+
+<div class="col-12 mt-3">
+![Photo of hands holding a phone showing the app](../assets/images/planthood6.png)
 </div>
