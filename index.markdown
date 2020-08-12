@@ -158,20 +158,20 @@ Generative art, Installation art
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
+[![Colourway thumbnail](../assets/images/colourwaythumbnail.png)](about-colourway)
+
+Colourway
+
+Web development
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
 [![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
 3D illustrations
 
 3D modelling
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
-[![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
-
-Fingerprint Hat
-
-Knitwear design, Generative design
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -192,6 +192,14 @@ Flag Gen
 Graphic design, Generative art, Web development
 
 </div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
 
+[![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
+
+Fingerprint Hat
+
+Knitwear design, Generative design
+
+</div>
 </div>
 </div>

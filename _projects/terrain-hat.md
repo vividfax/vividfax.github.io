@@ -63,7 +63,7 @@ Website built with **Bootstrap** and hosted on **GitHub** pages.
 
 <div class="indent">
 
-I ran a **test knit** of the pattern to assess the usability of the website and the readability of the pattern instructions; organising and communicating with seven participants via **Slack**.
+I ran a **test knit** of the pattern to assess the usability of the website and the readability of the pattern instructions; organising and communicating with nine participants via **Slack**.
 
 </div>
 
