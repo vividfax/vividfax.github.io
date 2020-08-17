@@ -22,4 +22,8 @@ img { width: 100%; }
 
 #badges { color: #CE90C1; font-size: 0.6rem; line-height: 1rem; }
 
+pre { background: #fff; color: #36003F; padding: 20px; }
+
+.highlighter-rouge { color: #36003F; }
+
 /*# sourceMappingURL=styles.css.map */

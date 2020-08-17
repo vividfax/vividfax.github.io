@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D illustrations - Rianna @vividfax</title>
+    <title>Calculate the distance between two colors in p5.js - Rianna @vividfax</title>
 
     <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
 
@@ -63,57 +63,43 @@
 
 
         </div>
-        <div class="row mb-5">
+        <div class="row">
 
             
-<div class="col-12 col-md-6 mb-3">
-  <p><img src="../assets/images/3dillustrations0.png" alt="3D illustration" /></p>
-</div>
-<div class="col-12 col-md-6 mb-5">
-  <p><img src="../assets/images/3dillustrations1.png" alt="3D illustration" /></p>
-</div>
-
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
-  <p><strong>3D illustrations</strong></p>
+  <h4 id="calculate-the-distance-between-two-colors-in-p5js">Calculate the distance between two colors in p5.js</h4>
+  <p>16 August 2020</p>
 
-  <div class="indent">
+  <p><br /></p>
 
-    <p>made in <strong>Blender</strong>, experimenting with shaders, lighting and physics.</p>
+  <p>In building <a href="https://vividfax.github.io/colourway/">Colourway</a> I needed to calculate the distance between two colors in order to find the closest color match.</p>
 
-    <p><a href="https://www.instagram.com/vividfax/">instagram.com/vividfax/</a></p>
+  <p>The function takes two <a href="https://p5js.org/reference/#/p5/color">color object</a> as inputs, and gives a number between 0 and 765, where a lower number indicates a closer match.</p>
 
-    <p>I can’t remember exactly why I got into 3D but for a while I was doing daily sketches, and these are a few of them. One of my main focuses at this time was trying to inject more colour into my work to try and get better at colour theory through practice.</p>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let black = color('#000');
+let white = color('#fff');
 
-  </div>
+let distance = colorDistance(black, white);
 
-</div>
+function colorDistance(first, second) {
 
-<div class="col-12 mt-5">
-  <p><img src="../assets/images/3dillustrations2.png" alt="3D illustration" /></p>
-</div>
+	let r = abs(red(first) - red(second));
+	let g = abs(green(first) - green(second));
+	let b = abs(blue(first) - blue(second));
 
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations3.png" alt="3D illustration" /></p>
-</div>
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations4.png" alt="3D illustration" /></p>
-</div>
+	return r + g + b;
+}
+</code></pre></div>  </div>
 
-<div class="col-12 mt-3">
-  <p><img src="../assets/images/3dillustrations5.png" alt="3D illustration" /></p>
-</div>
+  <p><a href="https://p5js.org/reference/#/p5/abs">abs()</a> gives the absolute value of a number; turning any negative numbers into positives.</p>
 
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations6.png" alt="3D illustration" /></p>
-</div>
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations7.png" alt="3D illustration" /></p>
 </div>
 
 
         </div>
         <div class="row">
+
 
             <div id="contact" class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center mt-5 pt-5">
 

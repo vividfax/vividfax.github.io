@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D illustrations - Rianna @vividfax</title>
+    <title>Find the top n closest matches from a list - Rianna @vividfax</title>
 
     <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
 
@@ -63,57 +63,68 @@
 
 
         </div>
-        <div class="row mb-5">
+        <div class="row">
 
             
-<div class="col-12 col-md-6 mb-3">
-  <p><img src="../assets/images/3dillustrations0.png" alt="3D illustration" /></p>
-</div>
-<div class="col-12 col-md-6 mb-5">
-  <p><img src="../assets/images/3dillustrations1.png" alt="3D illustration" /></p>
-</div>
-
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
-  <p><strong>3D illustrations</strong></p>
+  <h4 id="find-the-top-n-closest-matches-from-a-list">Find the top n closest matches from a list</h4>
+  <p>17 August 2020</p>
 
-  <div class="indent">
+  <p><br /></p>
 
-    <p>made in <strong>Blender</strong>, experimenting with shaders, lighting and physics.</p>
+  <p>For Colourway I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.</p>
 
-    <p><a href="https://www.instagram.com/vividfax/">instagram.com/vividfax/</a></p>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const maxDistance = 765;
+let distances = [];
 
-    <p>I can’t remember exactly why I got into 3D but for a while I was doing daily sketches, and these are a few of them. One of my main focuses at this time was trying to inject more colour into my work to try and get better at colour theory through practice.</p>
+const numberOfMatches = 3;
+let matches = [];
 
-  </div>
+for (let i = 0; i &lt; numberOfMatches; i++) {
 
-</div>
+    matches.push(maxDistance);
+    distances.push('');
+}
+</code></pre></div>  </div>
 
-<div class="col-12 mt-5">
-  <p><img src="../assets/images/3dillustrations2.png" alt="3D illustration" /></p>
-</div>
+  <p>In this case, the maximum <a href="http://vividfax.github.io/2020/08/16/color-distance.html">distance between the chosen color and any yarn option</a> is 765 (255*3). A lower number indicates a closer match. I’ve chosen the number of matches I want as 3.</p>
 
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations3.png" alt="3D illustration" /></p>
-</div>
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations4.png" alt="3D illustration" /></p>
-</div>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function getMatches(colorPicker, data, numberOfMatches) {
 
-<div class="col-12 mt-3">
-  <p><img src="../assets/images/3dillustrations5.png" alt="3D illustration" /></p>
-</div>
+    for (let i = 0; i &lt; data.length; i++) {
 
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations6.png" alt="3D illustration" /></p>
-</div>
-<div class="col-12 col-md-6 mt-3">
-  <p><img src="../assets/images/3dillustrations7.png" alt="3D illustration" /></p>
+        let distance = colorDistance(colorPicker.color, data[i].color);
+
+        for (let j = 0; j &lt; numberOfMatches; j++) {
+
+            if (distance &lt; distances[j]) {
+
+                for (let k = numberOfMatches - 1; k &gt; j; k--) {
+
+                    distances[k] = distances[k - 1];
+                    matches[k] = matches[k - 1];
+                }
+                distances[j] = distance;
+                matches[j] = data[i];
+
+                break;
+            }
+        }
+    }
+}
+</code></pre></div>  </div>
+
+  <p>First, iterate through the list of options, and for each, <a href="http://vividfax.github.io/2020/08/16/color-distance.html">calculate the distance between the color picker’s color value and the selected yarn’s color</a>. Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.</p>
+
+  <p>This gives an array of n matches in descending order.</p>
+
 </div>
 
 
         </div>
         <div class="row">
+
 
             <div id="contact" class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center mt-5 pt-5">
 
