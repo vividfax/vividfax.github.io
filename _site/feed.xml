@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T13:21:10+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Find the top n closest matches from a list</title><link href="http://localhost:4000/2020/08/17/closest-matches.html" rel="alternate" type="text/html" title="Find the top n closest matches from a list" /><published>2020-08-17T00:00:00+01:00</published><updated>2020-08-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/17/closest-matches</id><content type="html" xml:base="http://localhost:4000/2020/08/17/closest-matches.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-18T19:00:52+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Find the top n closest matches from a list</title><link href="http://localhost:4000/2020/08/17/closest-matches.html" rel="alternate" type="text/html" title="Find the top n closest matches from a list" /><published>2020-08-17T00:00:00+01:00</published><updated>2020-08-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/17/closest-matches</id><content type="html" xml:base="http://localhost:4000/2020/08/17/closest-matches.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
 
   &lt;h4 id=&quot;find-the-top-n-closest-matches-from-a-list&quot;&gt;Find the top n closest matches from a list&lt;/h4&gt;
   &lt;p&gt;17 August 2020&lt;/p&gt;
 
   &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-  &lt;p&gt;For Colourway I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.&lt;/p&gt;
+  &lt;p&gt;For &lt;a href=&quot;https://vividfax.github.io/colourway/&quot;&gt;Colourway&lt;/a&gt; I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.&lt;/p&gt;
 
   &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const maxDistance = 765;
 let distances = [];
@@ -20,7 +20,7 @@ for (let i = 0; i &amp;lt; numberOfMatches; i++) {
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 
-  &lt;p&gt;In this case, the maximum &lt;a href=&quot;http://vividfax.github.io/2020/08/16/color-distance.html&quot;&gt;distance between the chosen color and any yarn option&lt;/a&gt; is 765 (255*3). A lower number indicates a closer match. I’ve chosen the number of matches I want as 3.&lt;/p&gt;
+  &lt;p&gt;In this case, the maximum &lt;a href=&quot;/2020/08/16/color-distance.html&quot;&gt;distance between the chosen color and any yarn option&lt;/a&gt; is 765 (255*3). A lower number indicates a closer match. I’ve chosen the number of matches I want as 3.&lt;/p&gt;
 
   &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function getMatches(colorPicker, data, numberOfMatches) {
 
@@ -47,7 +47,7 @@ for (let i = 0; i &amp;lt; numberOfMatches; i++) {
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 
-  &lt;p&gt;First, iterate through the list of options, and for each, &lt;a href=&quot;http://vividfax.github.io/2020/08/16/color-distance.html&quot;&gt;calculate the distance between the color picker’s color value and the selected yarn’s color&lt;/a&gt;. Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.&lt;/p&gt;
+  &lt;p&gt;First, iterate through the list of options, and for each, &lt;a href=&quot;/2020/08/16/color-distance.html&quot;&gt;calculate the distance between the color picker’s color value and the selected yarn’s color&lt;/a&gt;. Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.&lt;/p&gt;
 
   &lt;p&gt;This gives an array of n matches in descending order.&lt;/p&gt;
 

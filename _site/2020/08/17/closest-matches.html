@@ -85,7 +85,7 @@
 
   <p><br /></p>
 
-  <p>For Colourway I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.</p>
+  <p>For <a href="https://vividfax.github.io/colourway/">Colourway</a> I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.</p>
 
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const maxDistance = 765;
 let distances = [];
@@ -100,7 +100,7 @@ for (let i = 0; i &lt; numberOfMatches; i++) {
 }
 </code></pre></div>  </div>
 
-  <p>In this case, the maximum <a href="http://vividfax.github.io/2020/08/16/color-distance.html">distance between the chosen color and any yarn option</a> is 765 (255*3). A lower number indicates a closer match. I’ve chosen the number of matches I want as 3.</p>
+  <p>In this case, the maximum <a href="/2020/08/16/color-distance.html">distance between the chosen color and any yarn option</a> is 765 (255*3). A lower number indicates a closer match. I’ve chosen the number of matches I want as 3.</p>
 
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function getMatches(colorPicker, data, numberOfMatches) {
 
@@ -127,7 +127,7 @@ for (let i = 0; i &lt; numberOfMatches; i++) {
 }
 </code></pre></div>  </div>
 
-  <p>First, iterate through the list of options, and for each, <a href="http://vividfax.github.io/2020/08/16/color-distance.html">calculate the distance between the color picker’s color value and the selected yarn’s color</a>. Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.</p>
+  <p>First, iterate through the list of options, and for each, <a href="/2020/08/16/color-distance.html">calculate the distance between the color picker’s color value and the selected yarn’s color</a>. Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.</p>
 
   <p>This gives an array of n matches in descending order.</p>
 

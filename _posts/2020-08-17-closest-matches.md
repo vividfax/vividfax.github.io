@@ -11,7 +11,7 @@ title:  "Find the top n closest matches from a list"
 
 <br>
 
-For Colourway I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.
+For [Colourway](https://vividfax.github.io/colourway/) I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.
 
 ```
 const maxDistance = 765;
@@ -27,7 +27,7 @@ for (let i = 0; i < numberOfMatches; i++) {
 }
 ```
 
-In this case, the maximum [distance between the chosen color and any yarn option](http://vividfax.github.io/2020/08/16/color-distance.html) is 765 (255*3). A lower number indicates a closer match. I've chosen the number of matches I want as 3.
+In this case, the maximum [distance between the chosen color and any yarn option]({% post_url 2020-8-16-color-distance %}) is 765 (255*3). A lower number indicates a closer match. I've chosen the number of matches I want as 3.
 
 ```
 function getMatches(colorPicker, data, numberOfMatches) {
@@ -55,7 +55,7 @@ function getMatches(colorPicker, data, numberOfMatches) {
 }
 ```
 
-First, iterate through the list of options, and for each, [calculate the distance between the color picker's color value and the selected yarn's color](http://vividfax.github.io/2020/08/16/color-distance.html). Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.
+First, iterate through the list of options, and for each, [calculate the distance between the color picker's color value and the selected yarn's color]({% post_url 2020-8-16-color-distance %}). Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.
 
 This gives an array of n matches in descending order.
 
