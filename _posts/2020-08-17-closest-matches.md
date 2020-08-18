@@ -11,7 +11,7 @@ title:  "Find the top n closest matches from a list"
 
 <br>
 
-For [Colourway](https://vividfax.github.io/colourway/) I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.
+For [Wayfinder](https://vividfax.github.io/wayfinder/) I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.
 
 ```
 const maxDistance = 765;

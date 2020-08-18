@@ -11,7 +11,7 @@ title:  "Calculate the distance between two colors in p5.js"
 
 <br>
 
-In building [Colourway](https://vividfax.github.io/colourway/) I needed to calculate the distance between two colors in order to find the closest color match.
+In building [Wayfinder](https://vividfax.github.io/wayfinder/) I needed to calculate the distance between two colors in order to find the closest color match.
 
 The function takes two [color object](https://p5js.org/reference/#/p5/color) as inputs, and gives a number between 0 and 765, where a lower number indicates a closer match.
 
