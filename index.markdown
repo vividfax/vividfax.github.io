@@ -158,9 +158,9 @@ Generative art, Installation art
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Colourway thumbnail](../assets/images/colourwaythumbnail.png)](about-colourway)
+[![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
 
-Colourway
+Wayfinder
 
 Web development
 
