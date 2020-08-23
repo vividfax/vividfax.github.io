@@ -1,11 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-18T21:00:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Find the top n closest matches from a list</title><link href="http://localhost:4000/2020/08/17/closest-matches.html" rel="alternate" type="text/html" title="Find the top n closest matches from a list" /><published>2020-08-17T00:00:00+01:00</published><updated>2020-08-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/17/closest-matches</id><content type="html" xml:base="http://localhost:4000/2020/08/17/closest-matches.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T15:30:43+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Manage a bot’s source code across Github and Heroku</title><link href="http://localhost:4000/2020/08/23/github-and-heroku.html" rel="alternate" type="text/html" title="Manage a bot’s source code across Github and Heroku" /><published>2020-08-23T00:00:00+01:00</published><updated>2020-08-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/23/github-and-heroku</id><content type="html" xml:base="http://localhost:4000/2020/08/23/github-and-heroku.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
+
+  &lt;h4 id=&quot;manage-a-bots-source-code-across-github-and-heroku&quot;&gt;Manage a bot’s source code across Github and Heroku&lt;/h4&gt;
+  &lt;p&gt;23 August 2020&lt;/p&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;This is a guide to managing a bot’s source code across GitHub and Heroku. I use this process for my twitter bots (like &lt;a href=&quot;https://twitter.com/blackletterwalk&quot;&gt;Blackletter Walk&lt;/a&gt;) where &lt;a href=&quot;https://github.com/vividfax/blackletter-walk&quot;&gt;the source code is publicly available on GitHub&lt;/a&gt;, and the bot lives on a posts from Heroku. One major difference between the source code on GitHub and the source code on Heroku is that the Heroku config file contains the twitter API keys, whereas on Github &lt;a href=&quot;https://github.com/vividfax/blackletter-walk/blob/master/config.js&quot;&gt;the config file is an empty template&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;First create a GitHub repository, initialise git inside the local directory, and push the source code to Github.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git init
+$ git commit -am &quot;Init&quot;
+$ git remote add origin https://github.com/username/repo_name.git
+$ git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;Then create a new branch with the name ‘heroku’, and add your config keys to your bot in the config.js file.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git checkout -b heroku
+$ git commit -am &quot;Add API keys&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;Then create a new Heroku app and push the new heroku branch to Heroku.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ heroku git:remote -a app_name
+$ git push heroku heroku:master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;When I refactor or change the bot’s source code I work on the master branch and merge the changes into the Heroku branch. I first make my changes on the master branch, commit them, and push them to GitHub. I then switch into the heroku branch, merge in the changes, and push to Heroku. Then switch back into the master branch if you want to continue working on it.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git commit -am &quot;Refactor&quot;
+$ git push origin master
+$ git checkout heroku
+$ git merge master
+$ git push heroku heroku:master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name></name></author></entry><entry><title type="html">Find the top n closest matches from a list</title><link href="http://localhost:4000/2020/08/17/closest-matches.html" rel="alternate" type="text/html" title="Find the top n closest matches from a list" /><published>2020-08-17T00:00:00+01:00</published><updated>2020-08-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/17/closest-matches</id><content type="html" xml:base="http://localhost:4000/2020/08/17/closest-matches.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
 
   &lt;h4 id=&quot;find-the-top-n-closest-matches-from-a-list&quot;&gt;Find the top n closest matches from a list&lt;/h4&gt;
   &lt;p&gt;17 August 2020&lt;/p&gt;
 
   &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-  &lt;p&gt;For &lt;a href=&quot;https://vividfax.github.io/colourway/&quot;&gt;Colourway&lt;/a&gt; I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.&lt;/p&gt;
+  &lt;p&gt;For &lt;a href=&quot;https://vividfax.github.io/wayfinder/&quot;&gt;Wayfinder&lt;/a&gt; I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.&lt;/p&gt;
 
   &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const maxDistance = 765;
 let distances = [];
@@ -58,7 +96,7 @@ for (let i = 0; i &amp;lt; numberOfMatches; i++) {
 
   &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-  &lt;p&gt;In building &lt;a href=&quot;https://vividfax.github.io/colourway/&quot;&gt;Colourway&lt;/a&gt; I needed to calculate the distance between two colors in order to find the closest color match.&lt;/p&gt;
+  &lt;p&gt;In building &lt;a href=&quot;https://vividfax.github.io/wayfinder/&quot;&gt;Wayfinder&lt;/a&gt; I needed to calculate the distance between two colors in order to find the closest color match.&lt;/p&gt;
 
   &lt;p&gt;The function takes two &lt;a href=&quot;https://p5js.org/reference/#/p5/color&quot;&gt;color object&lt;/a&gt; as inputs, and gives a number between 0 and 765, where a lower number indicates a closer match.&lt;/p&gt;
 

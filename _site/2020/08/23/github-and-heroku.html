@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find the top n closest matches from a list - Rianna @vividfax</title>
+    <title>Manage a bot's source code across Github and Heroku - Rianna @vividfax</title>
 
     <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
 
@@ -80,56 +80,41 @@
             
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
-  <h4 id="find-the-top-n-closest-matches-from-a-list">Find the top n closest matches from a list</h4>
-  <p>17 August 2020</p>
+  <h4 id="manage-a-bots-source-code-across-github-and-heroku">Manage a bot’s source code across Github and Heroku</h4>
+  <p>23 August 2020</p>
 
   <p><br /></p>
 
-  <p>For <a href="https://vividfax.github.io/wayfinder/">Wayfinder</a> I needed to display the top 3 yarn matches for the color chosen by the user using a color picker. To do this I would need to run through my entire list of yarns and select the top 3 matches in descending order.</p>
+  <p>This is a guide to managing a bot’s source code across GitHub and Heroku. I use this process for my twitter bots (like <a href="https://twitter.com/blackletterwalk">Blackletter Walk</a>) where <a href="https://github.com/vividfax/blackletter-walk">the source code is publicly available on GitHub</a>, and the bot lives on a posts from Heroku. One major difference between the source code on GitHub and the source code on Heroku is that the Heroku config file contains the twitter API keys, whereas on Github <a href="https://github.com/vividfax/blackletter-walk/blob/master/config.js">the config file is an empty template</a>.</p>
 
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const maxDistance = 765;
-let distances = [];
+  <p>First create a GitHub repository, initialise git inside the local directory, and push the source code to Github.</p>
 
-const numberOfMatches = 3;
-let matches = [];
-
-for (let i = 0; i &lt; numberOfMatches; i++) {
-
-    matches.push(maxDistance);
-    distances.push('');
-}
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git init
+$ git commit -am "Init"
+$ git remote add origin https://github.com/username/repo_name.git
+$ git push -u origin master
 </code></pre></div>  </div>
 
-  <p>In this case, the maximum <a href="/2020/08/16/color-distance.html">distance between the chosen color and any yarn option</a> is 765 (255*3). A lower number indicates a closer match. I’ve chosen the number of matches I want as 3.</p>
+  <p>Then create a new branch with the name ‘heroku’, and add your config keys to your bot in the config.js file.</p>
 
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function getMatches(colorPicker, data, numberOfMatches) {
-
-    for (let i = 0; i &lt; data.length; i++) {
-
-        let distance = colorDistance(colorPicker.color, data[i].color);
-
-        for (let j = 0; j &lt; numberOfMatches; j++) {
-
-            if (distance &lt; distances[j]) {
-
-                for (let k = numberOfMatches - 1; k &gt; j; k--) {
-
-                    distances[k] = distances[k - 1];
-                    matches[k] = matches[k - 1];
-                }
-                distances[j] = distance;
-                matches[j] = data[i];
-
-                break;
-            }
-        }
-    }
-}
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git checkout -b heroku
+$ git commit -am "Add API keys"
 </code></pre></div>  </div>
 
-  <p>First, iterate through the list of options, and for each, <a href="/2020/08/16/color-distance.html">calculate the distance between the color picker’s color value and the selected yarn’s color</a>. Then iterate through the list of matches, and if the current option is closer than the current match, bump the current match down the list of matches and save the current option as a match.</p>
+  <p>Then create a new Heroku app and push the new heroku branch to Heroku.</p>
 
-  <p>This gives an array of n matches in descending order.</p>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ heroku git:remote -a app_name
+$ git push heroku heroku:master
+</code></pre></div>  </div>
+
+  <p>When I refactor or change the bot’s source code I work on the master branch and merge the changes into the Heroku branch. I first make my changes on the master branch, commit them, and push them to GitHub. I then switch into the heroku branch, merge in the changes, and push to Heroku. Then switch back into the master branch if you want to continue working on it.</p>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git commit -am "Refactor"
+$ git push origin master
+$ git checkout heroku
+$ git merge master
+$ git push heroku heroku:master
+</code></pre></div>  </div>
 
 </div>
 
