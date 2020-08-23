@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T15:30:43+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Manage a bot’s source code across Github and Heroku</title><link href="http://localhost:4000/2020/08/23/github-and-heroku.html" rel="alternate" type="text/html" title="Manage a bot’s source code across Github and Heroku" /><published>2020-08-23T00:00:00+01:00</published><updated>2020-08-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/23/github-and-heroku</id><content type="html" xml:base="http://localhost:4000/2020/08/23/github-and-heroku.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T16:31:32+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Manage a bot’s source code across Github and Heroku</title><link href="http://localhost:4000/2020/08/23/github-and-heroku.html" rel="alternate" type="text/html" title="Manage a bot’s source code across Github and Heroku" /><published>2020-08-23T00:00:00+01:00</published><updated>2020-08-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/23/github-and-heroku</id><content type="html" xml:base="http://localhost:4000/2020/08/23/github-and-heroku.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
 
   &lt;h4 id=&quot;manage-a-bots-source-code-across-github-and-heroku&quot;&gt;Manage a bot’s source code across Github and Heroku&lt;/h4&gt;
   &lt;p&gt;23 August 2020&lt;/p&gt;
@@ -15,7 +15,7 @@ $ git remote add origin https://github.com/username/repo_name.git
 $ git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 
-  &lt;p&gt;Then create a new branch with the name ‘heroku’, and add your config keys to your bot in the config.js file.&lt;/p&gt;
+  &lt;p&gt;Then create a new branch with the name ‘heroku’, and add your config keys to your bot in the &lt;a href=&quot;https://github.com/vividfax/blackletter-walk/blob/master/config.js&quot;&gt;config.js&lt;/a&gt; file.&lt;/p&gt;
 
   &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git checkout -b heroku
 $ git commit -am &quot;Add API keys&quot;
@@ -27,7 +27,7 @@ $ git commit -am &quot;Add API keys&quot;
 $ git push heroku heroku:master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 
-  &lt;p&gt;When I refactor or change the bot’s source code I work on the master branch and merge the changes into the Heroku branch. I first make my changes on the master branch, commit them, and push them to GitHub. I then switch into the heroku branch, merge in the changes, and push to Heroku. Then switch back into the master branch if you want to continue working on it.&lt;/p&gt;
+  &lt;p&gt;Whenever I refactor or change the bot’s source code I work on the master branch and then merge the changes into the Heroku branch. I first make my changes on the master branch, commit them, and push them to GitHub. I then switch into the heroku branch, merge in the changes, and push to Heroku. Then I switch back into the master branch if I want to continue working on it.&lt;/p&gt;
 
   &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git commit -am &quot;Refactor&quot;
 $ git push origin master

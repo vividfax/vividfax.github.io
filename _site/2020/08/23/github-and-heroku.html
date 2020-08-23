@@ -95,7 +95,7 @@ $ git remote add origin https://github.com/username/repo_name.git
 $ git push -u origin master
 </code></pre></div>  </div>
 
-  <p>Then create a new branch with the name ‘heroku’, and add your config keys to your bot in the config.js file.</p>
+  <p>Then create a new branch with the name ‘heroku’, and add your config keys to your bot in the <a href="https://github.com/vividfax/blackletter-walk/blob/master/config.js">config.js</a> file.</p>
 
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git checkout -b heroku
 $ git commit -am "Add API keys"
@@ -107,7 +107,7 @@ $ git commit -am "Add API keys"
 $ git push heroku heroku:master
 </code></pre></div>  </div>
 
-  <p>When I refactor or change the bot’s source code I work on the master branch and merge the changes into the Heroku branch. I first make my changes on the master branch, commit them, and push them to GitHub. I then switch into the heroku branch, merge in the changes, and push to Heroku. Then switch back into the master branch if you want to continue working on it.</p>
+  <p>Whenever I refactor or change the bot’s source code I work on the master branch and then merge the changes into the Heroku branch. I first make my changes on the master branch, commit them, and push them to GitHub. I then switch into the heroku branch, merge in the changes, and push to Heroku. Then I switch back into the master branch if I want to continue working on it.</p>
 
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git commit -am "Refactor"
 $ git push origin master
