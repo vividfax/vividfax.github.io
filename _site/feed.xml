@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T16:31:32+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Manage a bot’s source code across Github and Heroku</title><link href="http://localhost:4000/2020/08/23/github-and-heroku.html" rel="alternate" type="text/html" title="Manage a bot’s source code across Github and Heroku" /><published>2020-08-23T00:00:00+01:00</published><updated>2020-08-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/23/github-and-heroku</id><content type="html" xml:base="http://localhost:4000/2020/08/23/github-and-heroku.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-14T18:31:05+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I'm Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Assign a material to an object in Blender with Python</title><link href="http://localhost:4000/2021/01/14/blender-materials.html" rel="alternate" type="text/html" title="Assign a material to an object in Blender with Python" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://localhost:4000/2021/01/14/blender-materials</id><content type="html" xml:base="http://localhost:4000/2021/01/14/blender-materials.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
+
+  &lt;h4 id=&quot;assign-a-material-to-an-object-in-blender-using-python&quot;&gt;Assign a material to an object in Blender using Python&lt;/h4&gt;
+  &lt;p&gt;14 January 2021&lt;/p&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;This is how to create a new material, add a shader, create a new object and assign the material to the object in Blender using Python.&lt;/p&gt;
+
+  &lt;p&gt;First, create a new material. The function takes a string as the name for the new material.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import bpy
+
+def newMaterial(id):
+
+    mat = bpy.data.materials.get(id)
+
+    if mat is None:
+        mat = bpy.data.materials.new(name=id)
+
+    if mat.node_tree:
+        mat.node_tree.links.clear()
+        mat.node_tree.nodes.clear()
+
+    mat.use_nodes = True
+
+    return mat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;Then add a shader to the material. Input the type of shader (i.e. diffuse, emission, glossy) and the rgb colour.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def newShader(id, type, r, g, b):
+
+    mat = newMaterial(id)
+
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+    output = nodes.new(type='ShaderNodeOutputMaterial')
+
+    if type == &quot;diffuse&quot;:
+        shader = nodes.new(type='ShaderNodeBsdfDiffuse')
+        nodes[&quot;Diffuse BSDF&quot;].inputs[0].default_value = (r, g, b, 1)
+
+    elif type == &quot;emission&quot;:
+        shader = nodes.new(type='ShaderNodeEmission')
+        nodes[&quot;Emission&quot;].inputs[0].default_value = (r, g, b, 1)
+        nodes[&quot;Emission&quot;].inputs[1].default_value = 1
+
+    elif type == &quot;glossy&quot;:
+        shader = nodes.new(type='ShaderNodeBsdfGlossy')
+        nodes[&quot;Glossy BSDF&quot;].inputs[0].default_value = (r, g, b, 1)
+        nodes[&quot;Glossy BSDF&quot;].inputs[1].default_value = 0
+
+    links.new(shader.outputs[0], output.inputs[0])
+
+    return mat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;Then create the object, assign the material and call the function.&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def drawObject():
+
+    mat = newShader(&quot;Shader1&quot;, &quot;diffuse&quot;, 1, 1, 1)
+    bpy.ops.mesh.primitive_cube_add(size=2, align='WORLD', location=(0, 0, 0))
+    bpy.context.active_object.data.materials.append(mat)
+
+drawObject()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author></entry><entry><title type="html">Manage a bot’s source code across Github and Heroku</title><link href="http://localhost:4000/2020/08/23/github-and-heroku.html" rel="alternate" type="text/html" title="Manage a bot’s source code across Github and Heroku" /><published>2020-08-23T00:00:00+01:00</published><updated>2020-08-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/23/github-and-heroku</id><content type="html" xml:base="http://localhost:4000/2020/08/23/github-and-heroku.html">&lt;div class=&quot;col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center&quot;&gt;
 
   &lt;h4 id=&quot;manage-a-bots-source-code-across-github-and-heroku&quot;&gt;Manage a bot’s source code across Github and Heroku&lt;/h4&gt;
   &lt;p&gt;23 August 2020&lt;/p&gt;
@@ -107,11 +175,11 @@ let distance = colorDistance(black, white);
 
 function colorDistance(first, second) {
 
-	let r = abs(red(first) - red(second));
-	let g = abs(green(first) - green(second));
-	let b = abs(blue(first) - blue(second));
+    let r = abs(red(first) - red(second));
+    let g = abs(green(first) - green(second));
+    let b = abs(blue(first) - blue(second));
 
-	return r + g + b;
+    return r + g + b;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculate the distance between two colors in p5.js - Rianna @vividfax</title>
+    <title>Assign a material to an object in Blender with Python - Rianna @vividfax</title>
 
     <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
 
@@ -80,32 +80,72 @@
             
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
-  <h4 id="calculate-the-distance-between-two-colors-in-p5js">Calculate the distance between two colors in p5.js</h4>
-  <p>16 August 2020</p>
+  <h4 id="assign-a-material-to-an-object-in-blender-using-python">Assign a material to an object in Blender using Python</h4>
+  <p>14 January 2021</p>
 
   <p><br /></p>
 
-  <p>In building <a href="https://vividfax.github.io/wayfinder/">Wayfinder</a> I needed to calculate the distance between two colors in order to find the closest color match.</p>
+  <p>This is how to create a new material, add a shader, create a new object and assign the material to the object in Blender using Python.</p>
 
-  <p>The function takes two <a href="https://p5js.org/reference/#/p5/color">color object</a> as inputs, and gives a number between 0 and 765, where a lower number indicates a closer match.</p>
+  <p>First, create a new material. The function takes a string as the name for the new material.</p>
 
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let black = color('#000');
-let white = color('#fff');
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import bpy
 
-let distance = colorDistance(black, white);
+def newMaterial(id):
 
-function colorDistance(first, second) {
+    mat = bpy.data.materials.get(id)
 
-    let r = abs(red(first) - red(second));
-    let g = abs(green(first) - green(second));
-    let b = abs(blue(first) - blue(second));
+    if mat is None:
+        mat = bpy.data.materials.new(name=id)
 
-    return r + g + b;
-}
+    if mat.node_tree:
+        mat.node_tree.links.clear()
+        mat.node_tree.nodes.clear()
+
+    mat.use_nodes = True
+
+    return mat
 </code></pre></div>  </div>
 
-  <p><a href="https://p5js.org/reference/#/p5/abs">abs()</a> gives the absolute value of a number; turning any negative numbers into positives.</p>
+  <p>Then add a shader to the material. Input the type of shader (i.e. diffuse, emission, glossy) and the rgb colour.</p>
 
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def newShader(id, type, r, g, b):
+
+    mat = newMaterial(id)
+
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+    output = nodes.new(type='ShaderNodeOutputMaterial')
+
+    if type == "diffuse":
+        shader = nodes.new(type='ShaderNodeBsdfDiffuse')
+        nodes["Diffuse BSDF"].inputs[0].default_value = (r, g, b, 1)
+
+    elif type == "emission":
+        shader = nodes.new(type='ShaderNodeEmission')
+        nodes["Emission"].inputs[0].default_value = (r, g, b, 1)
+        nodes["Emission"].inputs[1].default_value = 1
+
+    elif type == "glossy":
+        shader = nodes.new(type='ShaderNodeBsdfGlossy')
+        nodes["Glossy BSDF"].inputs[0].default_value = (r, g, b, 1)
+        nodes["Glossy BSDF"].inputs[1].default_value = 0
+
+    links.new(shader.outputs[0], output.inputs[0])
+
+    return mat
+</code></pre></div>  </div>
+
+  <p>Then create the object, assign the material and call the function.</p>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def drawObject():
+
+    mat = newShader("Shader1", "diffuse", 1, 1, 1)
+    bpy.ops.mesh.primitive_cube_add(size=2, align='WORLD', location=(0, 0, 0))
+    bpy.context.active_object.data.materials.append(mat)
+
+drawObject()
+</code></pre></div>  </div>
 </div>
 
 

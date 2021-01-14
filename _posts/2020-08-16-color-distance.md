@@ -23,11 +23,11 @@ let distance = colorDistance(black, white);
 
 function colorDistance(first, second) {
 
-	let r = abs(red(first) - red(second));
-	let g = abs(green(first) - green(second));
-	let b = abs(blue(first) - blue(second));
+    let r = abs(red(first) - red(second));
+    let g = abs(green(first) - green(second));
+    let b = abs(blue(first) - blue(second));
 
-	return r + g + b;
+    return r + g + b;
 }
 ```
 
