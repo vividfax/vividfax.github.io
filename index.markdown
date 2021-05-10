@@ -11,9 +11,9 @@ title: home
 
 <div id="about" class="mb-5">
 
-### Hi there, I'm&nbsp;Rianna
+### Hi there, I'm&nbsp;Rianna :)
 
-Front-end&nbsp;developer, Generative&nbsp;artist, Knitwear&nbsp;designer
+Front-end&nbsp;developer, Game&nbsp;developer, Generative&nbsp;artist &&nbsp;Knitwear&nbsp;designer
 
 </div>
 <div class="pt-3 mb-5">
@@ -112,7 +112,7 @@ knitting needles
 </div>
 <div id="projects" class="mb-5">
 
-Some things I've made:
+Here are some things I've made:
 
 </div>
 
@@ -131,6 +131,15 @@ Interaction design, UI design, Front-end iOS development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
+[![Planthood thumbnail](../assets/images/orchestratethumbnail.gif)](orchestrate)
+
+Orchestrate
+
+Game design, Game development, Playtesting
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
 [![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
 
 Terrain Hat
@@ -140,20 +149,11 @@ Knitwear design, Generative design, UI design, Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
+[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
-Blackletter Walk
+3D illustrations
 
-Typography, Generative design, Web development
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
-[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
-
-Generative sketches
-
-Generative art, Installation art
+3D modelling
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -167,11 +167,20 @@ Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
+[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
 
-3D illustrations
+Generative sketches
 
-3D modelling
+Generative art, Installation art
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
+[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
+
+Blackletter Walk
+
+Typography, Generative design, Web development
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
