@@ -38,7 +38,7 @@ Built in **p5.js**, using **Tone.js**’s sound library.
 
 <div class="indent">
 
-We **playtested** over Discord with multiple players throughout development, iterating upon their feedback.
+We playtested over Discord with multiple players throughout development, iterating upon their feedback.
 
 </div>
 

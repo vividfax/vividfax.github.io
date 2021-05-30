@@ -75,3 +75,7 @@ I ran a **test knit** of the pattern to assess the usability of the website and 
 <div class="col-12 col-md-6 mt-md-5">
 ![Screenshot of a Google Form](../assets/images/terrainhat4.png)
 </div>
+
+<div class="col-12 mt-3">
+![Screenshot from Ravelry of other people's Terrain Hats](../assets/images/terrainhat5.png)
+</div>
