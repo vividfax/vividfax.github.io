@@ -26,11 +26,11 @@ def newMaterial(id):
     if mat is None:
         mat = bpy.data.materials.new(name=id)
 
+    mat.use_nodes = True
+
     if mat.node_tree:
         mat.node_tree.links.clear()
         mat.node_tree.nodes.clear()
-
-    mat.use_nodes = True
 
     return mat
 ```
