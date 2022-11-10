@@ -13,7 +13,7 @@ title: home
 
 ### Hi there, I'm&nbsp;Rianna :)
 
-Front-end&nbsp;developer, Game&nbsp;developer, Generative&nbsp;artist &&nbsp;Knitwear&nbsp;designer
+Generative&nbsp;artist, Knitwear&nbsp;designer &&nbsp;Game&nbsp;dev
 
 </div>
 <div class="pt-3 mb-5">
@@ -45,9 +45,9 @@ VSCode
 </div>
 <div class="col-3 col-sm-2 text-center">
 
-![Git logo](../assets/images/badges/gitlogo.png)
+![GitHub logo](../assets/images/badges/githublogo.png)
 
-Git
+GitHub
 
 </div>
 <div class="col-3 col-sm-2 text-center">
@@ -73,9 +73,9 @@ Node.js
 </div>
 <div class="col-3 col-sm-2 text-center">
 
-![React Native logo](../assets/images/badges/reactlogo.png)
+![C++ logo](../assets/images/badges/cpluspluslogo.png)
 
-React Native
+C++
 
 </div>
 <div class="col-3 col-sm-2 text-center">
