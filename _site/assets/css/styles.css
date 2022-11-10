@@ -1,4 +1,4 @@
-body { background-color: #FFF8F8; color: #835E89; font-family: Menlo, Monaco, 'Courier New', monospace; font-size: 0.8rem; line-height: 1.2rem; margin-bottom: 6rem; }
+body { background-color: #FFF8F8; color: #835E89; font-family: "Fira Code", Menlo, Monaco, 'Courier New', monospace; font-size: 0.8rem; line-height: 1.2rem; margin-bottom: 6rem; }
 
 h3 { color: #CE90C1; }
 
@@ -7,8 +7,6 @@ i { color: #CE90C1; }
 a { color: #CE90C1; }
 
 a:hover { color: #835E89; }
-
-strong { color: #36003F; font-weight: normal; }
 
 .btn { background-color: #CE90C1; color: #FFF8F8; font-size: 0.8rem; line-height: 2rem; border: 0px; }
 

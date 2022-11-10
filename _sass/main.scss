@@ -8,7 +8,7 @@ $contrast: #C0DFD9;
 body {
     background-color: $white;
     color: $dark;
-    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-family: "Fira Code", Menlo, Monaco, 'Courier New', monospace;
     font-size: 0.8rem;
     line-height: 1.2rem;
     margin-bottom: 6rem;
@@ -28,11 +28,6 @@ a {
 
 a:hover {
     color: $dark;
-}
-
-strong {
-    color: $black;
-    font-weight: normal;
 }
 
 .btn {
