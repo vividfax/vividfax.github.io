@@ -9,7 +9,7 @@ permalink: /motif/
 <div class="col-12 col-md-6 mb-3">
 ![Photo of a sign for the exhibition on the front of a door](../assets/images/motif0.png)
 </div>
-<div class="col-12 col-md-6 mb-3">
+<div class="col-12 col-md-6 mb-5">
 ![Screenshot of Motif webpage](../assets/images/motif1.png)
 </div>
 

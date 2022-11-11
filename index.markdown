@@ -194,11 +194,11 @@ Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
+[![Undefined Original Soundtrack thumbnail](../assets/images/uostthumbnail.png)](undefined-original-soundtrack)
 
-Blackletter Walk
+Undefined Original Soundtrack
 
-Typography, Generative design, Web development
+Generative music
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -210,7 +210,15 @@ GOGOGOGOGO
 UI design, Vector art, 3D modelling
 
 </div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
 
+[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
+
+Blackletter Walk
+
+Typography, Generative design, Web development
+
+</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
 [![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
@@ -218,7 +226,7 @@ UI design, Vector art, 3D modelling
 Fingerprint Hat
 
 Knitwear design, Generative design
-
 </div>
+
 </div>
 </div>
