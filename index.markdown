@@ -122,11 +122,11 @@ Here are some things I've made:
 
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
+[![Motif thumbnail](../assets/images/motifthumbnail.png)](motif)
 
-Planthood
+Motif
 
-Interaction design, UI design, Front-end iOS development
+Generative art, Interactive installation
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -140,6 +140,24 @@ Game design, Game development, Playtesting
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
+[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
+
+Planthood
+
+Interaction design, UI design, Front-end iOS development
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
+[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
+
+Generative sketches
+
+Generative art, Installation art
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5">
+
 [![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
 
 Terrain Hat
@@ -149,11 +167,11 @@ Knitwear design, Generative design, UI design, Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
+[![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
 
-3D illustrations
+Flag Gen
 
-3D modelling
+Graphic design, Generative art, Web development
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -167,11 +185,11 @@ Web development
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
+[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
-Generative sketches
+3D illustrations
 
-Generative art, Installation art
+3D modelling
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -192,15 +210,7 @@ GOGOGOGOGO
 UI design, Vector art, 3D modelling
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
 
-[![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
-
-Flag Gen
-
-Graphic design, Generative art, Web development
-
-</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">
 
 [![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
