@@ -135,7 +135,7 @@ Generative art, Interactive installation
 
 Orchestrate
 
-Game design, Game development, Playtesting
+Game design, Game development, Playtesting, Data visualisation
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5">

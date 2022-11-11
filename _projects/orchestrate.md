@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Orchestrate
-description: Game design, Game development, Playtesting
+description: Game design, Game development, Playtesting, Data visualisation
 permalink: /orchestrate/
 ---
 {::options parse_block_html="true" /}
