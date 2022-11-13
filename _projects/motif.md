@@ -43,9 +43,9 @@ The game was projected on a wall in the exhibition space, with foot operated ped
 
 </div>
 
-<div class="col-12 col-md-6 mt-5">
+<div class="col-12 col-md-6 mt-5  mb-3">
 ![Screenshot of Motif webpage](../assets/images/motif2.png)
 </div>
-<div class="col-12 col-md-6 mt-5">
+<div class="col-12 col-md-6 mt-md-5">
 ![Photo of a person interactive with the exhibition](../assets/images/motif3.png)
 </div>
