@@ -9,8 +9,8 @@ body {
     background-color: $white;
     color: $dark;
     font-family: "Fira Code", Menlo, Monaco, 'Courier New', monospace;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    //font-size: 0.8rem;
+    //line-height: 1.2rem;
     margin-bottom: 6rem;
 }
 
@@ -33,8 +33,8 @@ a:hover {
 .btn {
     background-color: $mid;
     color: $white;
-    font-size: 0.8rem;
-    line-height: 2rem;
+    //font-size: 0.9rem;
+    //line-height: 2rem;
     border: 0px;
 }
 
@@ -56,6 +56,15 @@ img {
 
 #badges {
     color: $mid;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-height: 1rem;
+}
+
+@media only screen and (max-width: 60em) {
+    body, .btn {
+        font-size: 0.9rem;
+    }
+    #badges {
+        font-size: 0.6rem;
+    }
 }

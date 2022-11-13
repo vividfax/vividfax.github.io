@@ -11,7 +11,7 @@ title: home
 
 <div id="about" class="mb-5">
 
-### Hiya, I'm&nbsp;Rianna :)
+### Hiya, I'm&nbsp;Rianna&nbsp;:)
 
 Generative&nbsp;artist, Knitwear&nbsp;designer &&nbsp;Game&nbsp;dev
 
