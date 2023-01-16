@@ -19,7 +19,7 @@ permalink: /motif/
 
 <div class="indent">
 
-is a **projected pattern making game**, commissioned by Waltham Forest Council as part of JUMP festival, and featuring illustrations by [Jhinuk Sarkar](https://paperfigillustration.com/). The project is based on William Morris’s technique of layering imagery to create complex patterns, and features landmarks, animals and greenery that can be found in Waltham Forest. The exhibition featured drop-in origami crane making, inspired by the birds that are a common motif in William Morris’s work.
+is a **projected pattern maker**, commissioned by Waltham Forest Council as part of JUMP festival, and featuring illustrations by [Jhinuk Sarkar](https://paperfigillustration.com/). The project is based on William Morris’s technique of layering imagery to create complex patterns, and features landmarks, animals and greenery that can be found in Waltham Forest. The exhibition featured drop-in origami crane making, inspired by the birds that are a common motif in William Morris’s work.
 
 [vividfax.itch.io/motif](https://vividfax.itch.io/motif)
 
