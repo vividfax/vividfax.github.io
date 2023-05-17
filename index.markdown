@@ -31,6 +31,13 @@ Figma
 </div>
 <div class="col-3 col-sm-2 text-center">
 
+![p5.js logo](../assets/images/badges/p5jslogo.png)
+
+p5.js
+
+</div>
+<div class="col-3 col-sm-2 text-center">
+
 ![Notion logo](../assets/images/badges/notionlogo.png)
 
 Notion
@@ -52,16 +59,16 @@ GitHub
 </div>
 <div class="col-3 col-sm-2 text-center">
 
-![Python logo](../assets/images/badges/pythonlogo.png)
+![JavaScript logo](../assets/images/badges/javascriptlogo.png)
 
-Python
+JavaScript
 
 </div>
 <div class="col-3 col-sm-2 text-center">
 
-![JavaScript logo](../assets/images/badges/javascriptlogo.png)
+![Python logo](../assets/images/badges/pythonlogo.png)
 
-JavaScript
+Python
 
 </div>
 <div class="col-3 col-sm-2 text-center">
@@ -90,13 +97,6 @@ Heroku
 ![Blender logo](../assets/images/badges/blenderlogo.png)
 
 Blender
-
-</div>
-<div class="col-3 col-sm-2 text-center">
-
-![p5.js logo](../assets/images/badges/p5jslogo.png)
-
-p5.js
 
 </div>
 <div class="col-3 col-sm-2 text-center">
