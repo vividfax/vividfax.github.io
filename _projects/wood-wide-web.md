@@ -29,7 +29,7 @@ The game was made in collaboration with artist [Mariana Marangoni](https://maria
 <div class="col-12 col-md-6 mt-5">
 ![Photo of Wood Wide Web postcards](../assets/images/woodwideweb1.png)
 </div>
-<div class="col-12 col-md-6 mt-5">
+<div class="col-12 col-md-6 mt-md-5">
 ![Photo of moss on a computer monitor](../assets/images/woodwideweb2.png)
 </div>
 
