@@ -2,7 +2,7 @@ $white: #FFF8F8;
 $light: #FF9595;
 $mid: #CE90C1;
 $dark: #835E89;
-$black:#36003F;
+$black: #36003F;
 $contrast: #40b6af;
 
 body {
@@ -12,6 +12,15 @@ body {
     font-size: 1.1rem;
     line-height: 1.7rem;
     margin-bottom: 6rem;
+}
+
+canvas {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    // transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 h1 {

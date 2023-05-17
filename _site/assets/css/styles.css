@@ -1,5 +1,7 @@
 body { background-color: #FFF8F8; color: #835E89; font-family: "Noto Sans", Menlo, Monaco, 'Courier New', monospace; font-size: 1.1rem; line-height: 1.7rem; margin-bottom: 6rem; }
 
+canvas { margin: auto; position: absolute; left: 0; top: 0; z-index: -1; }
+
 h1 { font-size: 3rem; }
 
 i, em { color: #CE90C1; }
