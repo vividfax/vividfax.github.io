@@ -174,13 +174,13 @@ Here are some things I've made:
 *Graphic design, Generative art, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
+<div class="col-12 col-md-6 col-lg-4 mb-5 gogogogogo">
 
-[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
+[![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
 
-### 3D illustrations
+### GOGOGOGOGO
 
-*3D modelling*
+*UI design, Vector art, 3D modelling*
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
@@ -192,13 +192,13 @@ Here are some things I've made:
 *Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 gogogogogo">
+<div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
 
-[![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
+[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
-### GOGOGOGOGO
+### 3D illustrations
 
-*UI design, Vector art, 3D modelling*
+*3D modelling*
 
 </div>
 
