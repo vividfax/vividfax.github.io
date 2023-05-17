@@ -10,9 +10,9 @@ permalink: /flag-gen/
 ![A single frame from a Blackletter Walk gif](../assets/images/flaggen0.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center flag-gen">
 
-**Flag Gen**
+# Flag Gen
 
 <div class="indent">
 

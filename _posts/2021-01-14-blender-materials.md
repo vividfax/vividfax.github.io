@@ -7,7 +7,7 @@ title:  "Assign a material to an object in Blender with Python"
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
 #### Assign a material to an object in Blender using Python
-14 January 2021
+*14 January 2021*
 
 <br>
 

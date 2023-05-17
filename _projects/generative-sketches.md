@@ -13,9 +13,9 @@ permalink: /generative-sketches/
 ![Generative artwork](../assets/images/generativesketches1.gif)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center generative-sketches">
 
-**Generative sketches**
+# Generative sketches
 
 <div class="indent">
 

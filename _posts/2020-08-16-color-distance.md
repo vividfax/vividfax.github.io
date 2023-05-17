@@ -7,7 +7,7 @@ title:  "Calculate the distance between two colors in p5.js"
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
 #### Calculate the distance between two colors in p5.js
-16 August 2020
+*16 August 2020*
 
 <br>
 

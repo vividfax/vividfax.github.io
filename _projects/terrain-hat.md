@@ -13,9 +13,9 @@ permalink: /about-terrain-hat/
 ![A photo of a knitted hat](../assets/images/terrainhat1.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center terrain-hat">
 
-**Terrain Hat**
+# Terrain Hat
 
 <div class="indent">
 
@@ -41,7 +41,7 @@ I built an **interactive** knitting chart **generator** for the hat, using **p5.
 ![A knitting chart](../assets/images/terrainhat2.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center terrain-hat">
 
 **UI design**
 

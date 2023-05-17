@@ -6,13 +6,13 @@ permalink: /undefined-original-soundtrack/
 ---
 {::options parse_block_html="true" /}
 
-<div class="col-126 mb-3">
+<div class="col-12 mb-5">
 ![Screenshot of Undefined Original Soundtrack on Bandcamp](../assets/images/uost0.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center uos">
 
-**Undefined Original Soundtrack**
+# Undefined Original Soundtrack
 
 <div class="indent">
 

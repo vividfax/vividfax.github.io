@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-24T23:39:20+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I&apos;m Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Assign a material to an object in Blender with Python</title><link href="http://localhost:4000/2021/01/14/blender-materials.html" rel="alternate" type="text/html" title="Assign a material to an object in Blender with Python" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://localhost:4000/2021/01/14/blender-materials</id><content type="html" xml:base="http://localhost:4000/2021/01/14/blender-materials.html"><![CDATA[<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-17T21:25:13+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rianna @vividfax</title><subtitle>Hi there, I&apos;m Rianna. Front-end developer, Generative artist, Knitter</subtitle><entry><title type="html">Assign a material to an object in Blender with Python</title><link href="http://localhost:4000/2021/01/14/blender-materials.html" rel="alternate" type="text/html" title="Assign a material to an object in Blender with Python" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>http://localhost:4000/2021/01/14/blender-materials</id><content type="html" xml:base="http://localhost:4000/2021/01/14/blender-materials.html"><![CDATA[<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
   <h4 id="assign-a-material-to-an-object-in-blender-using-python">Assign a material to an object in Blender using Python</h4>
-  <p>14 January 2021</p>
+  <p><em>14 January 2021</em></p>
 
   <p><br /></p>
 
@@ -69,7 +69,7 @@ drawObject()
 </div>]]></content><author><name></name></author></entry><entry><title type="html">Manage a bot’s source code across Github and Heroku</title><link href="http://localhost:4000/2020/08/23/github-and-heroku.html" rel="alternate" type="text/html" title="Manage a bot’s source code across Github and Heroku" /><published>2020-08-23T00:00:00+01:00</published><updated>2020-08-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/23/github-and-heroku</id><content type="html" xml:base="http://localhost:4000/2020/08/23/github-and-heroku.html"><![CDATA[<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
   <h4 id="manage-a-bots-source-code-across-github-and-heroku">Manage a bot’s source code across Github and Heroku</h4>
-  <p>23 August 2020</p>
+  <p><em>23 August 2020</em></p>
 
   <p><br /></p>
 
@@ -107,7 +107,7 @@ $ git push heroku heroku:master
 </div>]]></content><author><name></name></author></entry><entry><title type="html">Find the top n closest matches from a list</title><link href="http://localhost:4000/2020/08/17/closest-matches.html" rel="alternate" type="text/html" title="Find the top n closest matches from a list" /><published>2020-08-17T00:00:00+01:00</published><updated>2020-08-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/17/closest-matches</id><content type="html" xml:base="http://localhost:4000/2020/08/17/closest-matches.html"><![CDATA[<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
   <h4 id="find-the-top-n-closest-matches-from-a-list">Find the top n closest matches from a list</h4>
-  <p>17 August 2020</p>
+  <p><em>17 August 2020</em></p>
 
   <p><br /></p>
 
@@ -160,7 +160,7 @@ for (let i = 0; i &lt; numberOfMatches; i++) {
 </div>]]></content><author><name></name></author></entry><entry><title type="html">Calculate the distance between two colors in p5.js</title><link href="http://localhost:4000/2020/08/16/color-distance.html" rel="alternate" type="text/html" title="Calculate the distance between two colors in p5.js" /><published>2020-08-16T00:00:00+01:00</published><updated>2020-08-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/08/16/color-distance</id><content type="html" xml:base="http://localhost:4000/2020/08/16/color-distance.html"><![CDATA[<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
   <h4 id="calculate-the-distance-between-two-colors-in-p5js">Calculate the distance between two colors in p5.js</h4>
-  <p>16 August 2020</p>
+  <p><em>16 August 2020</em></p>
 
   <p><br /></p>
 

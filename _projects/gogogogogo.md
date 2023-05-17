@@ -10,9 +10,9 @@ permalink: /gogogogogo/
 ![Screenshot of game UI design](../assets/images/gogogogogo0.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center gogogogogo">
 
-**GOGOGOGOGOGO**
+# GOGOGOGOGOGO
 
 <div class="indent">
 

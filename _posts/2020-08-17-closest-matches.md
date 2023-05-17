@@ -7,7 +7,7 @@ title:  "Find the top n closest matches from a list"
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
 #### Find the top n closest matches from a list
-17 August 2020
+*17 August 2020*
 
 <br>
 

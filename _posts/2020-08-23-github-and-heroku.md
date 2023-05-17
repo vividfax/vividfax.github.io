@@ -7,7 +7,7 @@ title:  "Manage a bot's source code across Github and Heroku"
 <div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
 
 #### Manage a bot's source code across Github and Heroku
-23 August 2020
+*23 August 2020*
 
 <br>
 

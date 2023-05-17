@@ -10,9 +10,9 @@ permalink: /blackletter-walk/
 ![A single frame from a Blackletter Walk gif](../assets/images/blackletterwalk0.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center blackletter-walk">
 
-**Blackletter Walk**
+# Blackletter Walk
 
 <div class="indent">
 

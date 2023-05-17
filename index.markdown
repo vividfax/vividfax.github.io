@@ -11,9 +11,9 @@ title: home
 
 <div id="about" class="mb-5">
 
-### Hiya, I'm&nbsp;Rianna&nbsp;:)
+# <span class="hiya">Hiya, I'm&nbsp;Rianna&nbsp;:)</span>
 
-Generative&nbsp;artist, Knitwear&nbsp;designer &&nbsp;Game&nbsp;dev
+Generative&nbsp;Artist, Knitwear&nbsp;Designer &&nbsp;Game&nbsp;Dev
 
 </div>
 <div class="pt-3 mb-5">
@@ -120,112 +120,113 @@ Here are some things I've made:
 <div class="col-12">
 <div class="row">
 
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 www">
+
+[![Wood Wide Web thumbnail](../assets/images/woodwidewebthumbnail.png)](wood-wide-web)
+
+### Wood Wide Web
+
+*Game design, Generative poetry*
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 motif">
 
 [![Motif thumbnail](../assets/images/motifthumbnail.png)](motif)
 
-Motif
+### Motif
 
-Generative art, Interactive installation
+*Generative art, Interactive installation*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 orchestrate">
 
 [![Planthood thumbnail](../assets/images/orchestratethumbnail.gif)](orchestrate)
 
-Orchestrate
+### Orchestrate
 
-Game design, Game development, Playtesting, Data visualisation
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
-[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
-
-Planthood
-
-Interaction design, UI design, Front-end iOS development
+*Game design, Playtesting, Data visualisation*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
-[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
-
-Generative sketches
-
-Generative art, Installation art
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 terrain-hat">
 
 [![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
 
-Terrain Hat
+### Terrain Hat
 
-Knitwear design, Generative design, UI design, Web development
+*Knitwear design, Generative design, UI design, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 generative-sketches">
+
+[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
+
+### Generative sketches
+
+*Generative art, Installation art*
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 planthood">
+
+[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
+
+### Planthood
+
+*Interaction design, UI design, Front-end iOS development*
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 flag-gen">
 
 [![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
 
-Flag Gen
+### Flag Gen
 
-Graphic design, Generative art, Web development
+*Graphic design, Generative art, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
 
 [![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
 
-Wayfinder
+### Wayfinder
 
-Web development
+*Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
 
 [![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
-3D illustrations
+### 3D illustrations
 
-3D modelling
+*3D modelling*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 uos">
 
 [![Undefined Original Soundtrack thumbnail](../assets/images/uostthumbnail.png)](undefined-original-soundtrack)
 
-Undefined Original Soundtrack
+### Undefined Original Soundtrack
 
-Generative music
+*Generative music*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 gogogogogo">
 
 [![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
 
-GOGOGOGOGO
+### GOGOGOGOGO
 
-UI design, Vector art, 3D modelling
+*UI design, Vector art, 3D modelling*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
+<div class="col-12 col-md-6 col-lg-4 mb-5 blackletter-walk">
 
 [![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
 
-Blackletter Walk
+### Blackletter Walk
 
-Typography, Generative design, Web development
+*Typography, Generative design, Web development*
 
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5">
-
-[![Fingerprint Hat thumbnail](../assets/images/fingerprinthatthumbnail.png)](fingerprint-hat)
-
-Fingerprint Hat
-
-Knitwear design, Generative design
 </div>
 
 </div>

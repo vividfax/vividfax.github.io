@@ -10,9 +10,9 @@ permalink: /planthood/
 ![Mockup of app on phone screens](../assets/images/planthood0.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center planthood">
 
-**Planthood**
+# Planthood
 
 <div class="indent">
 
@@ -36,7 +36,7 @@ I designed a **moodboard**, defining the features, target user, and the look and
 ![Interaction map](../assets/images/planthood1.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center planthood">
 
 **Interaction design**<br>
 
@@ -63,7 +63,7 @@ Created a **wireframe** in **Figma** and linked up the pages to create a **click
 ![User testing in Lookback](../assets/images/planthood3.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center planthood">
 
 **User testing**<br>
 

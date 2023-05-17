@@ -13,9 +13,9 @@ permalink: /motif/
 ![Screenshot of Motif webpage](../assets/images/motif1.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center motif">
 
-**Motif**
+# Motif
 
 <div class="indent">
 

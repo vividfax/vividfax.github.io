@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Orchestrate
-description: Game design, Game development, Playtesting, Data visualisation
+description: Game design, Playtesting, Data visualisation
 permalink: /orchestrate/
 ---
 {::options parse_block_html="true" /}
@@ -10,9 +10,9 @@ permalink: /orchestrate/
 ![Screenshot of game](../assets/images/orchestrate0.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center orchestrate">
 
-**Orchestrate**
+# Orchestrate
 
 <div class="indent">
 

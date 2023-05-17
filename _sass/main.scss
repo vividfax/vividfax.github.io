@@ -3,31 +3,42 @@ $light: #FF9595;
 $mid: #CE90C1;
 $dark: #835E89;
 $black:#36003F;
-$contrast: #C0DFD9;
+$contrast: #40b6af;
 
 body {
     background-color: $white;
     color: $dark;
-    font-family: "Fira Code", Menlo, Monaco, 'Courier New', monospace;
-    //font-size: 0.8rem;
-    //line-height: 1.2rem;
+    font-family: "Noto Sans", Menlo, Monaco, 'Courier New', monospace;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
     margin-bottom: 6rem;
 }
 
-h3 {
-    color: $mid;
+h1 {
+    // color: $mid;
+    font-size: 3rem;
 }
 
-i {
+// h3 {
+//     color: $mid;
+// }
+
+i, em {
     color: $mid;
 }
 
 a {
-    color: $mid;
+    color: $contrast;
+    text-decoration: underline;
 }
 
 a:hover {
     color: $dark;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $mid;
 }
 
 .btn {
@@ -36,6 +47,7 @@ a:hover {
     //font-size: 0.9rem;
     //line-height: 2rem;
     border: 0px;
+    text-decoration: none;
 }
 
 .btn:hover, .btn:active, .btn:focus {
@@ -67,4 +79,57 @@ img {
     #badges {
         font-size: 0.6rem;
     }
+}
+
+.hiya {
+    font-family: "Yeseva One", Menlo, Monaco, 'Courier New', monospace;
+}
+
+.www {
+    font-family: "Fira Code", monospace;
+}
+
+.motif {
+    font-family: "Averia Gruesa Libre", serif;
+}
+
+.orchestrate {
+    font-family: "Nunito", sans-serif;
+}
+
+.terrain-hat {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.generative-sketches {
+    font-family: "Montserrat", sans-serif;
+}
+
+.planthood {
+    font-family: 'Courier New', Courier, monospace;
+    // font-weight: 600;
+}
+
+.flag-gen {
+    font-family: "Raleway";
+}
+
+.wayfinder {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.three-d {
+    font-family: Helvetica, sans-serif;
+}
+
+.uos {
+    font-family: Helvetica, sans-serif;
+}
+
+.gogogogogo {
+    font-family: "Play", sans-serif;
+}
+
+.blackletter-walk {
+    font-family: "Pirata One", serif;
 }

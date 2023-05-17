@@ -13,9 +13,9 @@ permalink: /3d-illustrations/
 ![3D illustration](../assets/images/3dillustrations1.png)
 </div>
 
-<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center">
+<div class="col-12 offset-sm-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3 vertical-center three-d">
 
-**3D illustrations**
+# 3D illustrations
 
 <div class="indent">
 

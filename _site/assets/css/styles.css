@@ -1,14 +1,16 @@
-body { background-color: #FFF8F8; color: #835E89; font-family: "Fira Code", Menlo, Monaco, 'Courier New', monospace; margin-bottom: 6rem; }
+body { background-color: #FFF8F8; color: #835E89; font-family: "Noto Sans", Menlo, Monaco, 'Courier New', monospace; font-size: 1.1rem; line-height: 1.7rem; margin-bottom: 6rem; }
 
-h3 { color: #CE90C1; }
+h1 { font-size: 3rem; }
 
-i { color: #CE90C1; }
+i, em { color: #CE90C1; }
 
-a { color: #CE90C1; }
+a { color: #40b6af; text-decoration: underline; }
 
 a:hover { color: #835E89; }
 
-.btn { background-color: #CE90C1; color: #FFF8F8; border: 0px; }
+.nav-link { text-decoration: none; color: #CE90C1; }
+
+.btn { background-color: #CE90C1; color: #FFF8F8; border: 0px; text-decoration: none; }
 
 .btn:hover, .btn:active, .btn:focus { background-color: #835E89; }
 
@@ -21,5 +23,31 @@ img { width: 100%; }
 #badges { color: #CE90C1; font-size: 0.7rem; line-height: 1rem; }
 
 @media only screen and (max-width: 60em) { body, .btn { font-size: 0.9rem; } #badges { font-size: 0.6rem; } }
+
+.hiya { font-family: "Yeseva One", Menlo, Monaco, 'Courier New', monospace; }
+
+.www { font-family: "Fira Code", monospace; }
+
+.motif { font-family: "Averia Gruesa Libre", serif; }
+
+.orchestrate { font-family: "Nunito", sans-serif; }
+
+.terrain-hat { font-family: 'Times New Roman', Times, serif; }
+
+.generative-sketches { font-family: "Montserrat", sans-serif; }
+
+.planthood { font-family: 'Courier New', Courier, monospace; }
+
+.flag-gen { font-family: "Raleway"; }
+
+.wayfinder { font-family: 'Times New Roman', Times, serif; }
+
+.three-d { font-family: Helvetica, sans-serif; }
+
+.uos { font-family: Helvetica, sans-serif; }
+
+.gogogogogo { font-family: "Play", sans-serif; }
+
+.blackletter-walk { font-family: "Pirata One", serif; }
 
 /*# sourceMappingURL=styles.css.map */
