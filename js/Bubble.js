@@ -21,7 +21,7 @@ class Bubble {
         if (mouseDistance < this.radius/2 && this.radius > 0) {
             this.radius -= 25;
         } else if (mouseDistance > this.radius/2+25 && this.radius < this.maxRadius) {
-            this.radius += 0.5;
+            this.radius += 0.3;
         }
     }
 
