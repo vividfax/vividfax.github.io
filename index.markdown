@@ -156,15 +156,6 @@ Here are some things I've made:
 *Knitwear design, Generative design, UI design, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 generative-sketches">
-
-[![Generative sketches thumbnail](../assets/images/generativesketchesthumbnail.gif)](generative-sketches)
-
-### Generative sketches
-
-*Generative art, Installation art*
-
-</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 planthood">
 
 [![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
@@ -183,15 +174,6 @@ Here are some things I've made:
 *Graphic design, Generative art, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
-
-[![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
-
-### Wayfinder
-
-*Web development*
-
-</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
 
 [![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
@@ -201,13 +183,13 @@ Here are some things I've made:
 *3D modelling*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 uos">
+<div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
 
-[![Undefined Original Soundtrack thumbnail](../assets/images/uostthumbnail.png)](undefined-original-soundtrack)
+[![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
 
-### Undefined Original Soundtrack
+### Wayfinder
 
-*Generative music*
+*Web development*
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 gogogogogo">
@@ -217,15 +199,6 @@ Here are some things I've made:
 ### GOGOGOGOGO
 
 *UI design, Vector art, 3D modelling*
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 blackletter-walk">
-
-[![Blackletter Walk thumbnail](../assets/images/blackletterwalkthumbnail.gif)](blackletter-walk)
-
-### Blackletter Walk
-
-*Typography, Generative design, Web development*
 
 </div>
 
