@@ -14,7 +14,8 @@ let backgroundCirclesLayer = [];
 
 function setup() {
 
-    createCanvas(document.documentElement.scrollWidth, document.documentElement.scrollHeight);
+    // createCanvas(document.documentElement.scrollWidth, document.documentElement.scrollHeight);
+    createCanvas(windowWidth, windowHeight);
 
     createBubbles();
     // createBackground();
