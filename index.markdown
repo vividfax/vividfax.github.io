@@ -138,6 +138,15 @@ Here are some things I've made:
 *Generative art, Interactive installation*
 
 </div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 planthood">
+
+[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
+
+### Planthood
+
+*Interaction design, UI design, Front-end iOS development*
+
+</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 orchestrate">
 
 [![Planthood thumbnail](../assets/images/orchestratethumbnail.gif)](orchestrate)
@@ -156,13 +165,13 @@ Here are some things I've made:
 *Knitwear design, Generative design, UI design, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 planthood">
+<div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
 
-[![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
+[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
 
-### Planthood
+### 3D illustrations
 
-*Interaction design, UI design, Front-end iOS development*
+*3D modelling*
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 flag-gen">
@@ -190,15 +199,6 @@ Here are some things I've made:
 ### Wayfinder
 
 *Web development*
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
-
-[![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
-
-### 3D illustrations
-
-*3D modelling*
 
 </div>
 
