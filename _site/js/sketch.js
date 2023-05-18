@@ -14,8 +14,16 @@ let backgroundCirclesLayer = [];
 
 function setup() {
 
+    let w = windowWidth;
+    let h = windowHeight;
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        w = window.screen.width;
+        h = window.screen.height;
+    }
+
     // createCanvas(document.documentElement.scrollWidth, document.documentElement.scrollHeight);
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(w, h);
 
     createBubbles();
     // createBackground();
