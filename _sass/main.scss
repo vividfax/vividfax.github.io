@@ -141,3 +141,12 @@ img {
 .blackletter-walk {
     font-family: "Pirata One", serif;
 }
+
+.thumbnail:first-child img{
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+.thumbnail:first-child img:hover{
+    transform: scale(1.1);
+}

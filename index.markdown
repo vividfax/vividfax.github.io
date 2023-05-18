@@ -123,6 +123,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 www">
 
 [![Wood Wide Web thumbnail](../assets/images/woodwidewebthumbnail.png)](wood-wide-web)
+{: .thumbnail}
 
 ### Wood Wide Web
 
@@ -132,6 +133,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 motif">
 
 [![Motif thumbnail](../assets/images/motifthumbnail.png)](motif)
+{: .thumbnail}
 
 ### Motif
 
@@ -141,6 +143,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 planthood">
 
 [![Planthood thumbnail](../assets/images/planthoodthumbnail.png)](planthood)
+{: .thumbnail}
 
 ### Planthood
 
@@ -150,6 +153,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 orchestrate">
 
 [![Planthood thumbnail](../assets/images/orchestratethumbnail.gif)](orchestrate)
+{: .thumbnail}
 
 ### Orchestrate
 
@@ -159,6 +163,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 terrain-hat">
 
 [![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
+{: .thumbnail}
 
 ### Terrain Hat
 
@@ -168,6 +173,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
 
 [![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
+{: .thumbnail}
 
 ### 3D illustrations
 
@@ -177,6 +183,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 flag-gen">
 
 [![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
+{: .thumbnail}
 
 ### Flag Gen
 
@@ -186,6 +193,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 gogogogogo">
 
 [![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
+{: .thumbnail}
 
 ### GOGOGOGOGO
 
@@ -195,6 +203,7 @@ Here are some things I've made:
 <div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
 
 [![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
+{: .thumbnail}
 
 ### Wayfinder
 
