@@ -18,8 +18,8 @@ function setup() {
     let h = windowHeight;
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        w = window.screen.width;
-        h = window.screen.height;
+        w = displayWidth;
+        h = displayHeight;
     }
 
     // createCanvas(document.documentElement.scrollWidth, document.documentElement.scrollHeight);
