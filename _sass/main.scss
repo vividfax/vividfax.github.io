@@ -150,3 +150,8 @@ img {
 .thumbnail:first-child img:hover{
     transform: scale(1.1);
 }
+
+::selection {
+    background: $contrast;
+    color: $white;
+}

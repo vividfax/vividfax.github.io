@@ -56,4 +56,6 @@ img { width: 100%; }
 
 .thumbnail:first-child img:hover { transform: scale(1.1); }
 
+::selection { background: #40b6af; color: #FFF8F8; }
+
 /*# sourceMappingURL=styles.css.map */
