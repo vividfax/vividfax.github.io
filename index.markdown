@@ -150,6 +150,36 @@ Here are some things I've made:
 *Interaction design, UI design, Front-end iOS development*
 
 </div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 flag-gen">
+
+[![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
+{: .thumbnail}
+
+### Flag Gen
+
+*Graphic design, Generative art, Web development*
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 tph">
+
+[![Two Point Hospital Redesign thumbnail](../assets/images/tphthumbnail.png)](two-point-hospital)
+{: .thumbnail}
+
+### Two Point Hospital UI redesign
+
+*UX design, UI design*
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
+
+[![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
+{: .thumbnail}
+
+### Wayfinder
+
+*Web development*
+
+</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 orchestrate">
 
 [![Planthood thumbnail](../assets/images/orchestratethumbnail.gif)](orchestrate)
@@ -178,36 +208,6 @@ Here are some things I've made:
 ### 3D illustrations
 
 *3D modelling*
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 flag-gen">
-
-[![Flag Gen thumbnail](../assets/images/flaggenthumbnail.png)](flag-gen)
-{: .thumbnail}
-
-### Flag Gen
-
-*Graphic design, Generative art, Web development*
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 gogogogogo">
-
-[![GOGOGOGOGO Walk thumbnail](../assets/images/gogogogogothumbnail.png)](gogogogogo)
-{: .thumbnail}
-
-### GOGOGOGOGO
-
-*UI design, Vector art, 3D modelling*
-
-</div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
-
-[![Wayfinder thumbnail](../assets/images/wayfinderthumbnail.png)](about-wayfinder)
-{: .thumbnail}
-
-### Wayfinder
-
-*Web development*
 
 </div>
 

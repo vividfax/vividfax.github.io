@@ -30,11 +30,11 @@ The game was made in collaboration with artist [Mariana Marangoni](https://maria
 ![Photo of Wood Wide Web postcards](../assets/images/woodwideweb1.png)
 </div>
 <div class="col-12 col-md-6 mt-md-5">
-![Photo of moss on a computer monitor](../assets/images/woodwideweb2.png)
+![Photo of the artists](../assets/images/woodwideweb3.png)
 </div>
 
 <div class="col-12 col-md-6 mt-3">
-![Photo of the artists](../assets/images/woodwideweb3.png)
+![Photo of moss on a computer monitor](../assets/images/woodwideweb2.png)
 </div>
 <div class="col-12 col-md-6 mt-3">
 ![Photo of a moisture sensor surrounded by plants](../assets/images/woodwideweb4.png)
