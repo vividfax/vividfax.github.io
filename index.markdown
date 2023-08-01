@@ -16,6 +16,11 @@ title: home
 Generative&nbsp;Artist, Knitwear&nbsp;Designer &&nbsp;Game&nbsp;Dev
 
 </div>
+<div class="mt-5 mb-5">
+
+I'm a London based BA Fine Art graduate from Central Saint Martins who makes games for arts organisations including the National Poetry Library, Waltham Forest Council and King's College London. I've been making a game a month for the past two years, usually puzzle, simulation or action-arcade games. I particularly enjoy UI/UX design and am looking for roles in that&nbsp;area.
+
+</div>
 <div class="pt-3 mb-5">
 
 I design and build things using these tools:
@@ -130,14 +135,14 @@ Here are some things I've made:
 *Game design, Generative poetry*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 motif">
+<div class="col-12 col-md-6 col-lg-4 mb-5 tph">
 
-[![Motif thumbnail](../assets/images/motifthumbnail.png)](motif)
+[![Two Point Hospital Redesign thumbnail](../assets/images/tphthumbnail.png)](two-point-hospital)
 {: .thumbnail}
 
-### Motif
+### Two Point Hospital UI redesign
 
-*Generative art, Interactive installation*
+*UX design, UI design*
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 planthood">
@@ -160,14 +165,14 @@ Here are some things I've made:
 *Graphic design, Generative art, Web development*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 tph">
+<div class="col-12 col-md-6 col-lg-4 mb-5 motif">
 
-[![Two Point Hospital Redesign thumbnail](../assets/images/tphthumbnail.png)](two-point-hospital)
+[![Motif thumbnail](../assets/images/motifthumbnail.png)](motif)
 {: .thumbnail}
 
-### Two Point Hospital UI redesign
+### Motif
 
-*UX design, UI design*
+*Generative art, Interactive installation*
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 wayfinder">
@@ -190,16 +195,6 @@ Here are some things I've made:
 *Game design, Playtesting, Data visualisation*
 
 </div>
-<div class="col-12 col-md-6 col-lg-4 mb-5 terrain-hat">
-
-[![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
-{: .thumbnail}
-
-### Terrain Hat
-
-*Knitwear design, Generative design, UI design, Web development*
-
-</div>
 <div class="col-12 col-md-6 col-lg-4 mb-5 three-d">
 
 [![3D illustrations thumbnail](../assets/images/3dillustrationsthumbnail.png)](3d-illustrations)
@@ -208,6 +203,16 @@ Here are some things I've made:
 ### 3D illustrations
 
 *3D modelling*
+
+</div>
+<div class="col-12 col-md-6 col-lg-4 mb-5 terrain-hat">
+
+[![Terrain Hat thumbnail](../assets/images/terrainhatthumbnail.png)](about-terrain-hat)
+{: .thumbnail}
+
+### Terrain Hat
+
+*Knitwear design, Generative design, UI design, Web development*
 
 </div>
 
