@@ -16,7 +16,7 @@ permalink: /two-point-hospital/
 
 <div class="indent">
 
-Having grown up with Theme Hospital as one of the few PC games I owned, I was super excited to play Two Point Hospital but found their UI to be a sticking point, not just aesthetically but also with the amount of information on the screen and the way it’s laid out. I decided to have a go at redesigning the UI for hiring staff in the game.
+Having grown up with Theme Hospital as one of the few PC games I owned, I was super excited to play Two Point Hospital but found their UI to be a sticking point, not just aesthetically but also with the amount of information on the screen and the way it’s laid out. I decided to have a go in Figma at redesigning the UI for hiring staff in the game.
 
 </div><br>
 
